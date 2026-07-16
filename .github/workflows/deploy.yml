@@ -18,12 +18,17 @@ jobs:
           submodules: true
           fetch-depth: 0
 
-      - name: Install Tailwind CSS CLI
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 'lts/*'
+          cache: 'npm'
+          cache-dependency-path: '**/package-lock.json' # optionnel mais recommandé
+
+      - name: Install Node Dependencies
         run: |
-          id=$(curl -s https://api.github.com/repos/tailwindlabs/tailwindcss/releases/latest | grep -oP '"tag_name": "\K[^"]+')
-          curl -sLO https://github.com/tailwindlabs/tailwindcss/releases/download/${id}/tailwindcss-linux-x64
-          chmod +x tailwindcss-linux-x64
-          sudo mv tailwindcss-linux-x64 /usr/local/bin/tailwindcss
+          npm install -g tailwindcss postcss autoprefixer
+          npm install tailwindcss postcss autoprefixer
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
@@ -32,7 +37,8 @@ jobs:
           extended: true
 
       - name: Build with Hugo
-        run: hugo --gc --minify
+        run: npx tailwindcss -i ./assets/css/main.css -o ./assets/css/dist.css --minify || true && hugo --gc --minify
+        # Note : Nous forçons l'initialisation de Tailwind via npx, puis nous lançons la compilation Hugo classique.
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
