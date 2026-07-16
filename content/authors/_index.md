@@ -6,7 +6,7 @@ last_name: "Djaha"
 role: "Machine Learning & Intelligent Systems Researcher"
 
 organizations:
-- name: "University of the Basque Country (UPV/EHU)."
+  - name: "University of the Basque Country (UPV/EHU)"
     url: "https://www.ehu.eus"
 
 # Votre biographie courte
@@ -19,7 +19,7 @@ interests:
   - Time-Series Analysis & Network Theory (Visibility Graphs)
   - Fluid Mechanics & Computational Fluid Dynamics (CFD)
 
-# Vos diplômes (Education) - Mis à jour avec votre nouveau Master de l'UPV/EHU !
+# Vos diplômes (Education)
 education:
   courses:
     - course: "MSc in Computational Engineering and Intelligent Systems (Master KISA)"
