@@ -3,53 +3,32 @@ name: Deploy website to GitHub Pages
 on:
   push:
     branches:
-      - main
+      - main  # S'exécute dès que vous poussez sur la branche 'main'
 
 permissions:
-  contents: read
-  pages: write
-  id-token: write
-
-concurrency:
-  group: "pages"
-  cancel-in-progress: false
+  contents: write
 
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          submodules: recursive
+          submodules: true  # Télécharge les sous-modules si nécessaire
           fetch-depth: 0
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: '0.161.1'
+          hugo-version: 'latest'
           extended: true
 
-      - name: Install Tailwind CSS CLI
-        run: |
-          npm install -D tailwindcss
-          echo "$(pwd)/node_modules/.bin" >> $GITHUB_PATH
-
       - name: Build with Hugo
-        run: hugo --minify
+        run: hugo --gc --minify
 
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: ./public
-
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    needs: build
-    steps:
       - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
