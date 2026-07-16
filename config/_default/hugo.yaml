@@ -6,7 +6,7 @@
 # Website name (set in params.yaml under hugoblox.branding.name)
 title: 'Regis Konan Marcel Djaha | M.Sc. Candidate in Computational Engineering and Intelligent Systems'
 # Website URL
-baseURL: 'https://Regis_Konan.github.io/'
+baseURL: 'https://regiskonan.github.io/''
 
 ############################
 ## LANGUAGE
