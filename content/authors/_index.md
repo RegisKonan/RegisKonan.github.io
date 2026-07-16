@@ -6,8 +6,8 @@ last_name: "Djaha"
 role: "Machine Learning & Intelligent Systems Researcher"
 
 organizations:
-  - name: "Intelligent Systems & Machine Learning"
-    url: ""
+- name: "University of the Basque Country (UPV/EHU)"
+    url: "https://www.ehu.eus"
 
 # Votre biographie courte
 bio: "Mathematician specializing in Artificial Intelligence and Machine Learning, with a strong background in generative modeling (VAEs), complex networks, and fluid mechanics."
