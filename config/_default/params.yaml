@@ -13,15 +13,16 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   identity:
     # Site name - shown in navbar, footer, copyright, and browser title by default
-    name: "Your Name"
+    name: "Regis Konan Marcel Djaha"
     # Legal entity for copyright notices (defaults to name if not set)
-    organization: ""
+    organization: " University of the Basque Country UPV EHU"
     # Schema.org type for structured data
     type: person # person | organization | local_business
     # Short tagline displayed on your site
     tagline: ""
     # Site meta description for search engines and social sharing
-    description: "The highly-customizable Hugo Academic theme powered by HugoBlox
+    # description: "The highly-customizable Hugo Academic theme powered by HugoBlox
+    description: "Personal academic website of Regis Konan Marcel Djaha, researcher in Machine Learning and Intelligent Systems."
       Kit. Easily create your personal academic website."
     # Social accounts (used for meta tags like Twitter Cards)
     social:
