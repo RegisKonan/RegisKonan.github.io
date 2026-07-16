@@ -1,5 +1,5 @@
 ---
-# Vos informations de profil
+# Vos informations de profil 
 title: "Regis Konan Marcel Djaha"
 first_name: "Regis Konan Marcel"
 last_name: "Djaha" 
