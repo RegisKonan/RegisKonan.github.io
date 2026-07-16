@@ -22,7 +22,7 @@ hugoblox:
     tagline: ""
     # Site meta description for search engines and social sharing
     # description: "The highly-customizable Hugo Academic theme powered by HugoBlox
-    description: "Personal academic website of Regis Konan Marcel Djaha, researcher in Machine Learning and Intelligent Systems."
+    description: "Personal academic website of Regis Konan Marcel Djaha, researcher in Machine Learning and Intelligent Systems.
       Kit. Easily create your personal academic website."
     # Social accounts (used for meta tags like Twitter Cards)
     social:
