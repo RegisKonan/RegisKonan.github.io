@@ -2,7 +2,7 @@
 # Vos informations de profil
 title: "Regis Konan Marcel Djaha"
 first_name: "Regis Konan Marcel"
-last_name: "Djaha"
+last_name: "Djaha" 
 role: "Machine Learning & Intelligent Systems Researcher"
 
 organizations:
