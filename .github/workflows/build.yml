@@ -30,9 +30,10 @@ jobs:
           hugo-version: '0.161.1'
           extended: true
 
-      - name: Install Tailwind CSS
+      - name: Install Tailwind CSS CLI
         run: |
-          npm install -g tailwindcss
+          npm install -D tailwindcss
+          echo "$(pwd)/node_modules/.bin" >> $GITHUB_PATH
 
       - name: Build with Hugo
         run: hugo --minify
