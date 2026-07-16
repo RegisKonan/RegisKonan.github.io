@@ -3,7 +3,7 @@ name: Deploy website to GitHub Pages
 on:
   push:
     branches:
-      - main  # S'exécute dès que vous poussez sur la branche 'main'
+      - main
 
 permissions:
   contents: write
@@ -15,8 +15,13 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          submodules: true  # Télécharge les sous-modules si nécessaire
+          submodules: true
           fetch-depth: 0
+
+      - name: Install Tailwind CSS
+        run: |
+          npm install -g tailwindcss postcss autoprefixer
+          npm install tailwindcss postcss autoprefixer
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
@@ -25,7 +30,9 @@ jobs:
           extended: true
 
       - name: Build with Hugo
-        run: hugo --gc --minify
+        run: |
+          export PATH=$PATH:$(npm bin -g):./node_modules/.bin
+          hugo --gc --minify
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
