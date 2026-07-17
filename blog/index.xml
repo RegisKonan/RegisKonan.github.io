@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blog | Regis Konan Marcel Djaha | M.Sc. Candidate in Computational Engineering and Intelligent Systems</title><link>https://regiskonan.github.io/blog/</link><atom:link href="https://regiskonan.github.io/blog/index.xml" rel="self" type="application/rss+xml"/><description>Blog</description><generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 15 Jul 2024 00:00:00 +0000</lastBuildDate><image><url>https://regiskonan.github.io/media/icon_hu_eee4a95885829ab2.png</url><title>Blog</title><link>https://regiskonan.github.io/blog/</link></image><item><title>⚡️ Turn Jupyter Notebooks into Blog Posts</title><link>https://regiskonan.github.io/blog/notebook-onboarding/</link><pubDate>Mon, 15 Jul 2024 00:00:00 +0000</pubDate><guid>https://regiskonan.github.io/blog/notebook-onboarding/</guid><description>&lt;p&gt;As a researcher or data scientist, your work often lives in Jupyter Notebooks. But sharing those insights effectively usually means taking screenshots, messy copy-pasting, or exporting to PDF.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Certificates | Regis Konan Marcel Djaha | M.Sc. Candidate in Computational Engineering and Intelligent Systems</title><link>https://regiskonan.github.io/blog/</link><atom:link href="https://regiskonan.github.io/blog/index.xml" rel="self" type="application/rss+xml"/><description>Certificates</description><generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 15 Jul 2024 00:00:00 +0000</lastBuildDate><image><url>https://regiskonan.github.io/media/icon_hu_eee4a95885829ab2.png</url><title>Certificates</title><link>https://regiskonan.github.io/blog/</link></image><item><title>⚡️ Turn Jupyter Notebooks into Blog Posts</title><link>https://regiskonan.github.io/blog/notebook-onboarding/</link><pubDate>Mon, 15 Jul 2024 00:00:00 +0000</pubDate><guid>https://regiskonan.github.io/blog/notebook-onboarding/</guid><description>&lt;p&gt;As a researcher or data scientist, your work often lives in Jupyter Notebooks. But sharing those insights effectively usually means taking screenshots, messy copy-pasting, or exporting to PDF.&lt;/p&gt;
 &lt;p&gt;Hugo Blox changes that. With the &lt;code&gt;{{&amp;lt; notebook &amp;gt;}}&lt;/code&gt; shortcode, you can render your actual &lt;code&gt;.ipynb&lt;/code&gt; files directly as beautiful, interactive blog posts or project pages. Keep your code, outputs, and narrative in one place.&lt;/p&gt;
 &lt;details class="print:hidden xl:hidden" open&gt;
 &lt;summary&gt;Table of Contents&lt;/summary&gt;
@@ -626,9 +626,9 @@ Powered by Hugo Blox Kit - https://github.com/HugoBlox/kit
 &lt;div class="p-6 space-y-4"&gt;
 &lt;div class="mb-4 overflow-hidden rounded-lg"&gt;
 &lt;img class="w-full h-auto transition-transform duration-500 ease-out group-hover:scale-105"
-srcset="https://regiskonan.github.io/photo-1514888286974-6c03e2ca1dba_18145305924448453957_hu_f72c1a452bb0d2c4.webp 400w, https://regiskonan.github.io/photo-1514888286974-6c03e2ca1dba_18145305924448453957_hu_14b967f8dcd8fdbf.webp 600w, https://regiskonan.github.io/photo-1514888286974-6c03e2ca1dba_18145305924448453957_hu_cdf04663de998782.webp 800w, https://regiskonan.github.io/photo-1514888286974-6c03e2ca1dba_18145305924448453957_hu_bacc01c61b554a54.webp 800w"
+srcset="https://regiskonan.github.io/photo-1514888286974-6c03e2ca1dba_18145305924448453957_hu_16dd801da86fdd1a.webp 400w, https://regiskonan.github.io/photo-1514888286974-6c03e2ca1dba_18145305924448453957_hu_91d20702259dc7b.webp 600w, https://regiskonan.github.io/photo-1514888286974-6c03e2ca1dba_18145305924448453957_hu_fb6518f2fc84313a.webp 800w, https://regiskonan.github.io/photo-1514888286974-6c03e2ca1dba_18145305924448453957_hu_c08883eebbab0a9.webp 800w"
 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-src="https://regiskonan.github.io/photo-1514888286974-6c03e2ca1dba_18145305924448453957_hu_f72c1a452bb0d2c4.webp"
+src="https://regiskonan.github.io/photo-1514888286974-6c03e2ca1dba_18145305924448453957_hu_16dd801da86fdd1a.webp"
 width="400"
 height="300"
 loading="lazy"
@@ -705,7 +705,7 @@ Powered by Hugo Blox Kit - https://github.com/HugoBlox/kit
 format for interactive data visualizations. With Plotly, you can design almost any kind of visualization you can imagine!&lt;/p&gt;
 &lt;p&gt;Save your Plotly JSON in your page folder, for example &lt;code&gt;line-chart.json&lt;/code&gt;, and then add the &lt;code&gt;{{&amp;lt; chart data=&amp;quot;line-chart&amp;quot; &amp;gt;}}&lt;/code&gt; shortcode where you would like the chart to appear.&lt;/p&gt;
 &lt;p&gt;Demo:&lt;/p&gt;
-&lt;div id="chart-965348721" class="chart"&gt;&lt;/div&gt;
+&lt;div id="chart-873496152" class="chart"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 async function fetchChartJSON() {
@@ -721,7 +721,7 @@ return;
 clearInterval( a );
 fetchChartJSON().then(chart =&gt; {
 console.debug('Plotting chart...')
-window.Plotly.newPlot('chart-965348721', chart.data, chart.layout, {responsive: true});
+window.Plotly.newPlot('chart-873496152', chart.data, chart.layout, {responsive: true});
 });
 }, 500 );
 })();
