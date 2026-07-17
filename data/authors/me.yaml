@@ -1,3 +1,4 @@
+---
 # Display name
 title: "Regis Konan Marcel Djaha"
 
@@ -12,9 +13,6 @@ role: "Machine Learning & Intelligent Systems Researcher"
 organizations:
   - name: "University of the Basque Country (UPV/EHU)"
     url: "https://www.ehu.eus"
-
-# Short bio
-bio: "Data Scientist specializing in Artificial Intelligence and Machine Learning, with a strong background in generative modeling (VAEs), complex networks, and fluid mechanics."
 
 # Interests
 interests:
@@ -56,3 +54,6 @@ social:
   - icon: orcid
     icon_pack: ai
     link: "https://orcid.org/0009-0004-5252-759X"
+---
+
+Data Scientist specializing in Artificial Intelligence and Machine Learning, with a strong background in generative modeling (VAEs), complex networks, and fluid mechanics.
