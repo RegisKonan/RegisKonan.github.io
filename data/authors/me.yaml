@@ -41,22 +41,22 @@ interests:
 education:
   - degree: MSc in Computational Engineering and Intelligent Systems (Master KISA)
     institution: University of the Basque Country (UPV/EHU)
-    start: 2024-09-01
-    end: 2026-06-30
+    start: 2026-09
+    end: 2027-06
   - degree: MSc in Machine Intelligence
     institution: African Institute for Mathematical Sciences (AIMS-AMMI)
-    start: 2023-09-01
-    end: 2024-06-30
+    start: 2023-02
+    end: 2024-07
   - degree: MSc in Mathematical Sciences
     institution: African Institute for Mathematical Sciences (AIMS Rwanda)
-    start: 2021-09-01
-    end: 2022-06-30
+    start: 2021-08
+    end: 2022-06
   - degree: MSc in Mechanics and Energetics (Fluid Mechanics)
     institution: University Felix Houphouët-Boigny
-    start: 2018-09-01
-    end: 2020-06-30
+    start: 2018-10
+    end: 2020-02
   - degree: BSc in Mathematics and Applications
     institution: University Felix Houphouët-Boigny
-    start: 2015-09-01
-    end: 2018-06-30
+    start: 2015-01
+    end: 2018-10
 ---
