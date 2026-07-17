@@ -1,4 +1,4 @@
-
+avatar: "avatar.jpg"
 ---
 title: "Regis Konan Marcel Djaha"
 first_name: "Regis Konan Marcel"
@@ -9,7 +9,7 @@ organizations:
   - name: "University of the Basque Country (UPV/EHU)"
     url: "https://www.ehu.eus"
 
-bio: "Mathematician specializing in Artificial Intelligence and Machine Learning, with a strong background in generative modeling (VAEs), complex networks, and fluid mechanics."
+bio: "Data Scientist specializing in Artificial Intelligence and Machine Learning, with a strong background in generative modeling (VAEs), complex networks, and fluid mechanics."
 
 interests:
   - Deep Latent Variable Generative Modeling (VAEs, AEs, β-VAEs)
