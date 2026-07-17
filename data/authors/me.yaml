@@ -18,12 +18,12 @@ bio: |
   Data Scientist specializing in Artificial Intelligence and Machine Learning, with a strong background in generative modeling (VAEs), complex networks, and fluid mechanics.
 
 affiliations:
-  - name: University of the Basque Country (UPV/EHU)
-    url: https://www.ehu.eus
+  - name: Basque Center for Applied Mathematics (BCAM)
+    url: https://www.bcamath.org
 
 links:
   - icon: at-symbol
-    url: mailto:regiskonan@aims.ac.rw
+    url: mailto:rdjaha@bcamath.org
     label: E-mail Me
   - icon: brands/linkedin
     url: https://linkedin.com/in/regisdjaha
@@ -41,22 +41,99 @@ interests:
 education:
   - degree: MSc in Computational Engineering and Intelligent Systems (Master KISA)
     institution: University of the Basque Country (UPV/EHU)
-    start: 2026-09
-    end: 2027-06
-  - degree: MSc in Machine Intelligence
+    start: 2024-09-01
+    end: 2026-06-30
+  - degree: MSc in Mathematical Science - Machine Intelligence
     institution: African Institute for Mathematical Sciences (AIMS-AMMI)
-    start: 2023-02
-    end: 2024-07
+    start: 2023-09-01
+    end: 2024-06-30
+    summary: |
+      Thesis: Understanding Autoencoders and Variational Autoencoders. Grade: Good Pass.
   - degree: MSc in Mathematical Sciences
     institution: African Institute for Mathematical Sciences (AIMS Rwanda)
-    start: 2021-08
-    end: 2022-06
+    start: 2021-08-01
+    end: 2022-06-30
+    summary: |
+      Thesis: Application of Darcy's law in a 2D porous embankment. Grade: Good Pass.
   - degree: MSc in Mechanics and Energetics (Fluid Mechanics)
-    institution: University Felix Houphouët-Boigny
-    start: 2018-10
-    end: 2020-02
-  - degree: BSc in Mathematics and Applications
-    institution: University Felix Houphouët-Boigny
-    start: 2015-01
-    end: 2018-10
+    institution: University Felix Houphouët-Boigny (UFHB)
+    start: 2018-10-01
+    end: 2020-02-30
+    summary: |
+      Thesis: Influence of the anisotropy of the medium's permeability on advancing the freshwater-dirty water interface. Grade: 17/20.
+  - degree: BSc in Mathematics and Applications (major Mechanics)
+    institution: University Felix Houphouët-Boigny (UFHB)
+    start: 2015-01-01
+    end: 2018-10-30
+
+experience:
+  - role: Research Technician in Statistical Machine Learning
+    org: Basque Center for Applied Mathematics (BCAM)
+    start: 2023-09-01
+    end: 2024-09-30
+    summary: |
+      Deep Latent Variable generative modeling with applications. Designed and trained AE, VAE, and β-VAE models to visualize latent space, generate data, and perform data compression.
+  - role: Research Assistant in Mathematical Sciences
+    org: Mfano Africa - Oxford University (Remote)
+    start: 2023-07-01
+    end: 2023-09-30
+    summary: |
+      Visibility network structure of time-series from real-world systems. Analysed complex time-series data using visibility graph methods (resting-state fMRI and financial data).
+  - role: Computational Fluid Dynamics Intern
+    org: Université Felix Houphouët-Boigny
+    start: 2019-10-01
+    end: 2020-02-28
+    summary: |
+      Conducted studies on the effects of anisotropic permeability on the movement and interaction between freshwater and contaminated water interfaces.
+
+skills:
+  - name: Programming Languages
+    items:
+      - label: Python
+        level: 5
+      - label: MATLAB
+        level: 4
+      - label: R
+        level: 3
+      - label: Scilab / C
+        level: 3
+  - name: Libraries & Software
+    items:
+      - label: PyTorch / TensorFlow
+        level: 4
+      - label: Scikit-learn / Pandas / Numpy
+        level: 5
+      - label: Git / GitHub
+        level: 4
+      - label: LaTeX / Markdown
+        level: 5
+
+languages:
+  - name: French
+    level: 5
+    label: Native
+  - name: English
+    level: 4
+    label: B2
+  - name: Spanish
+    level: 1
+    label: Currently studying
+
+awards:
+  - title: Research Technician Contract (IC2023_03)
+    awarder: Basque Center for Applied Mathematics / La Caixa Junior Leader
+    date: "2023-09-27"
+    summary: €19,188 grant in Statistical Machine Learning.
+  - title: Research Grant
+    awarder: Mfano Africa - Oxford Virtual Mentorship Programme
+    date: "2023-07-10"
+    summary: £230 funding.
+  - title: Full Master's Scholarship (AMMI)
+    awarder: Facebook and Google
+    date: "2023-01-25"
+    summary: African Master's in Machine Intelligence (Mbour, Senegal).
+  - title: Full Master's Scholarship (AIMS)
+    awarder: African Institute for Mathematical Sciences (AIMS Rwanda)
+    date: "2021-08-30"
+    summary: $25,000 scholarship (Kigali, Rwanda).
 ---
