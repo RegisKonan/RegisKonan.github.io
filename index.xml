@@ -321,7 +321,7 @@ data-callout-metadata=""&gt;
 or check the
 .&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Happy researching! 🚀&lt;/p&gt;</description></item><item><title>Example Talk: Recent Work</title><link>https://regiskonan.github.io/slides/example/</link><pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate><guid>https://regiskonan.github.io/slides/example/</guid><description>&lt;!-- no-branding --&gt;
+&lt;p&gt;Happy researching! 🚀&lt;/p&gt;</description></item><item><title>Enhancing Obesity Detection Through SMOTE-based Classification Models: A Comparative Study</title><link>https://regiskonan.github.io/publications/journal-article/</link><pubDate>Sun, 30 Jun 2024 00:00:00 +0000</pubDate><guid>https://regiskonan.github.io/publications/journal-article/</guid><description/></item><item><title>Example Talk: Recent Work</title><link>https://regiskonan.github.io/slides/example/</link><pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate><guid>https://regiskonan.github.io/slides/example/</guid><description>&lt;!-- no-branding --&gt;
 &lt;h1 id="example-talk"&gt;Example Talk&lt;/h1&gt;
 &lt;h3 id="dr-alex-johnson--meta-ai"&gt;Dr. Alex Johnson · Meta AI&lt;/h3&gt;
 &lt;hr&gt;
@@ -1119,9 +1119,9 @@ Powered by Hugo Blox Kit - https://github.com/HugoBlox/kit
 &lt;div class="p-6 space-y-4"&gt;
 &lt;div class="mb-4 overflow-hidden rounded-lg"&gt;
 &lt;img class="w-full h-auto transition-transform duration-500 ease-out group-hover:scale-105"
-srcset="https://regiskonan.github.io/photo-1514888286974-6c03e2ca1dba_18145305924448453957_hu_16dd801da86fdd1a.webp 400w, https://regiskonan.github.io/photo-1514888286974-6c03e2ca1dba_18145305924448453957_hu_91d20702259dc7b.webp 600w, https://regiskonan.github.io/photo-1514888286974-6c03e2ca1dba_18145305924448453957_hu_fb6518f2fc84313a.webp 800w, https://regiskonan.github.io/photo-1514888286974-6c03e2ca1dba_18145305924448453957_hu_c08883eebbab0a9.webp 800w"
+srcset="https://regiskonan.github.io/photo-1514888286974-6c03e2ca1dba_18145305924448453957_hu_f72c1a452bb0d2c4.webp 400w, https://regiskonan.github.io/photo-1514888286974-6c03e2ca1dba_18145305924448453957_hu_14b967f8dcd8fdbf.webp 600w, https://regiskonan.github.io/photo-1514888286974-6c03e2ca1dba_18145305924448453957_hu_cdf04663de998782.webp 800w, https://regiskonan.github.io/photo-1514888286974-6c03e2ca1dba_18145305924448453957_hu_bacc01c61b554a54.webp 800w"
 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-src="https://regiskonan.github.io/photo-1514888286974-6c03e2ca1dba_18145305924448453957_hu_16dd801da86fdd1a.webp"
+src="https://regiskonan.github.io/photo-1514888286974-6c03e2ca1dba_18145305924448453957_hu_f72c1a452bb0d2c4.webp"
 width="400"
 height="300"
 loading="lazy"
@@ -1198,7 +1198,7 @@ Powered by Hugo Blox Kit - https://github.com/HugoBlox/kit
 format for interactive data visualizations. With Plotly, you can design almost any kind of visualization you can imagine!&lt;/p&gt;
 &lt;p&gt;Save your Plotly JSON in your page folder, for example &lt;code&gt;line-chart.json&lt;/code&gt;, and then add the &lt;code&gt;{{&amp;lt; chart data=&amp;quot;line-chart&amp;quot; &amp;gt;}}&lt;/code&gt; shortcode where you would like the chart to appear.&lt;/p&gt;
 &lt;p&gt;Demo:&lt;/p&gt;
-&lt;div id="chart-519278463" class="chart"&gt;&lt;/div&gt;
+&lt;div id="chart-798542361" class="chart"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 async function fetchChartJSON() {
@@ -1214,7 +1214,7 @@ return;
 clearInterval( a );
 fetchChartJSON().then(chart =&gt; {
 console.debug('Plotting chart...')
-window.Plotly.newPlot('chart-519278463', chart.data, chart.layout, {responsive: true});
+window.Plotly.newPlot('chart-798542361', chart.data, chart.layout, {responsive: true});
 });
 }, 500 );
 })();
@@ -2149,30 +2149,6 @@ data-callout-metadata=""&gt;
 or
 !&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Want to contribute?&lt;/strong&gt; Hugo Blox is open source!
-.&lt;/p&gt;</description></item><item><title>An example journal article</title><link>https://regiskonan.github.io/publications/journal-article/</link><pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate><guid>https://regiskonan.github.io/publications/journal-article/</guid><description>
-&lt;div class="callout flex px-4 py-3 mb-6 rounded-md border-l-4 bg-blue-100 dark:bg-blue-900 border-blue-500"
-data-callout="note"
-data-callout-metadata=""&gt;
-&lt;span class="callout-icon pr-3 pt-1 text-blue-600 dark:text-blue-300"&gt;
-&lt;svg height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"&gt;&lt;path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m16.862 4.487l1.687-1.688a1.875 1.875 0 1 1 2.652 2.652L6.832 19.82a4.5 4.5 0 0 1-1.897 1.13l-2.685.8l.8-2.685a4.5 4.5 0 0 1 1.13-1.897zm0 0L19.5 7.125"/&gt;&lt;/svg&gt;
-&lt;/span&gt;
-&lt;div class="callout-content dark:text-neutral-300"&gt;
-&lt;div class="callout-title font-semibold mb-1"&gt;Note&lt;/div&gt;
-&lt;div class="callout-body"&gt;&lt;p&gt;Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.&lt;/p&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="callout flex px-4 py-3 mb-6 rounded-md border-l-4 bg-blue-100 dark:bg-blue-900 border-blue-500"
-data-callout="note"
-data-callout-metadata=""&gt;
-&lt;span class="callout-icon pr-3 pt-1 text-blue-600 dark:text-blue-300"&gt;
-&lt;svg height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"&gt;&lt;path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m16.862 4.487l1.687-1.688a1.875 1.875 0 1 1 2.652 2.652L6.832 19.82a4.5 4.5 0 0 1-1.897 1.13l-2.685.8l.8-2.685a4.5 4.5 0 0 1 1.13-1.897zm0 0L19.5 7.125"/&gt;&lt;/svg&gt;
-&lt;/span&gt;
-&lt;div class="callout-content dark:text-neutral-300"&gt;
-&lt;div class="callout-title font-semibold mb-1"&gt;Note&lt;/div&gt;
-&lt;div class="callout-body"&gt;&lt;p&gt;Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.&lt;/p&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;Add the publication&amp;rsquo;s &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; here. You can use rich formatting such as including
 .&lt;/p&gt;</description></item><item><title>An example conference paper</title><link>https://regiskonan.github.io/publications/conference-paper/</link><pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate><guid>https://regiskonan.github.io/publications/conference-paper/</guid><description>
 &lt;div class="callout flex px-4 py-3 mb-6 rounded-md border-l-4 bg-blue-100 dark:bg-blue-900 border-blue-500"
 data-callout="note"
