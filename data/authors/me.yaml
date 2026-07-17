@@ -1,58 +1,62 @@
-# Display name
-title: "Regis Konan Marcel Djaha"
+---
+schema: hugoblox/author/v1
+slug: me
+is_owner: true
+name:
+  display: Regis Konan Marcel Djaha
+  given: Regis Konan
+  family: Marcel Djaha
+  alternate: ''
+  pronunciation: ''
+  pronouns: he/him
+postnominals:
+  - MSc
+status:
+  icon: "🔬"
+role: Machine Learning & Intelligent Systems Researcher
+bio: |
+  Data Scientist specializing in Artificial Intelligence and Machine Learning, with a strong background in generative modeling (VAEs), complex networks, and fluid mechanics.
 
-# Is this the main user of the site?
-superuser: true
-avatar: "avatar.jpg"
+affiliations:
+  - name: University of the Basque Country (UPV/EHU)
+    url: https://www.ehu.eus
 
-# Role/position
-role: "Machine Learning & Intelligent Systems Researcher"
+links:
+  - icon: at-symbol
+    url: mailto:regiskonan@aims.ac.rw
+    label: E-mail Me
+  - icon: brands/linkedin
+    url: https://linkedin.com/in/regisdjaha
+  - icon: brands/github
+    url: https://github.com/Regiskonan
+  - icon: academicons/orcid
+    url: https://orcid.org/0009-0004-5252-759X
 
-# Organizations/Affiliations
-organizations:
-  - name: "University of the Basque Country (UPV/EHU)"
-    url: "https://www.ehu.eus"
-
-# Short bio
-bio: "Data Scientist specializing in Artificial Intelligence and Machine Learning, with a strong background in generative modeling (VAEs), complex networks, and fluid mechanics."
-
-# Interests
 interests:
   - Deep Latent Variable Generative Modeling (VAEs, AEs, β-VAEs)
   - Stochastic PDEs & Scientific Computing
   - Time-Series Analysis & Network Theory (Visibility Graphs)
   - Fluid Mechanics & Computational Fluid Dynamics (CFD)
 
-# Education
 education:
-  courses:
-    - course: "MSc in Computational Engineering and Intelligent Systems (Master KISA)"
-      institution: "University of the Basque Country (UPV/EHU)"
-      year: 2026
-    - course: "MSc in Machine Intelligence"
-      institution: "African Institute for Mathematical Sciences (AIMS-AMMI)"
-      year: 2024
-    - course: "MSc in Mathematical Sciences"
-      institution: "African Institute for Mathematical Sciences (AIMS Rwanda)"
-      year: 2022
-    - course: "MSc in Mechanics and Energetics (Fluid Mechanics)"
-      institution: "University Felix Houphouët-Boigny"
-      year: 2020
-    - course: "BSc in Mathematics and Applications"
-      institution: "University Felix Houphouët-Boigny"
-      year: 2018
-
-# Social Network Links
-social:
-  - icon: envelope
-    icon_pack: fas
-    link: "mailto:regiskonan@aims.ac.rw"
-  - icon: linkedin
-    icon_pack: fab
-    link: "https://linkedin.com/in/regisdjaha"
-  - icon: github
-    icon_pack: fab
-    link: "https://github.com/Regiskonan"
-  - icon: orcid
-    icon_pack: ai
-    link: "https://orcid.org/0009-0004-5252-759X"
+  - degree: MSc in Computational Engineering and Intelligent Systems (Master KISA)
+    institution: University of the Basque Country (UPV/EHU)
+    start: 2024-09-01
+    end: 2026-06-30
+  - degree: MSc in Machine Intelligence
+    institution: African Institute for Mathematical Sciences (AIMS-AMMI)
+    start: 2023-09-01
+    end: 2024-06-30
+  - degree: MSc in Mathematical Sciences
+    institution: African Institute for Mathematical Sciences (AIMS Rwanda)
+    start: 2021-09-01
+    end: 2022-06-30
+  - degree: MSc in Mechanics and Energetics (Fluid Mechanics)
+    institution: University Felix Houphouët-Boigny
+    start: 2018-09-01
+    end: 2020-06-30
+  - degree: BSc in Mathematics and Applications
+    institution: University Felix Houphouët-Boigny
+    start: 2015-09-01
+    end: 2018-06-30
+---
