@@ -1,28 +1,33 @@
 ---
-linkTitle: Hugo Blox
-title: Learn Hugo Blox in 10 minutes!
-date: 2025-09-24
+title: "Machine Learning Workshop Series"
+summary: "Specialized presentations and hands-on sessions on latent variable models and statistical learning."
+date: "2024-03-24"
+
+# Type de page pour Hugo Blox
 type: docs
 
-tags:
-  - Hugo Blox
-  - Course
-
-content_meta:
-  content_type: 'Course'
-  difficulty: 'Beginner'
-  prerequisites: ['Markdown']
-  trending: false
+# Icône pour illustrer le cours dans la liste
+icon: book-open
 ---
 
-👋 Welcome to your shiny new site. Ready to learn more?
+## Exploring Autoencoders and Variational Autoencoders
+Presented at the **Basque Center for Applied Mathematics (BCAM)**, Machine Learning Group (March 2024).
 
-<!--more-->
+### Key Topics Covered:
+* **Dimensionality Reduction**: Traditional Autoencoders (AEs) for data reconstruction.
+* **Generative Modeling**: Variational Autoencoders (VAEs) and $\beta$-VAEs for latent space organization.
+* **Applications**: Unsupervised representation learning and synthetic data generation.
 
-This course provides a brief introduction to creating and editing your site with Hugo Blox. For full documentation, refer to the [Hugo Blox Documentation](https://docs.hugoblox.com/).
+---
 
-## Next
+## Other Academic Presentations
 
-{{< cards >}}
-  {{< card url="getting-started" title="Get Started" icon="document-text" subtitle="Setup your new site in just 5 minutes!" >}}
-{{< /cards >}}
+### Modeling Flow in the Subsurface
+*Presented in March 2022 at the African Institute for Mathematical Sciences (AIMS Rwanda).*
+* **Lecturer**: Andreas Rupp (Lappeenranta-Lahti University of Technology).
+* Focus on numerical methods for subsurface climate modeling.
+
+### The Statistical Definition of Entropy
+*Presented in January 2022 at the African Institute for Mathematical Sciences (AIMS Rwanda).*
+* **Lecturer**: Bernd Schroers (University of Edinburgh).
+* Focus on thermodynamics and statistical mechanics foundations.
