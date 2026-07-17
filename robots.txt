@@ -1,3 +1,3 @@
 User-agent: *
 
-Sitemap: https://Regis_Konan.github.io/sitemap.xml
+Sitemap: https://regiskonan.github.io/sitemap.xml
