@@ -6,5 +6,5 @@ type: docs
 
 Welcome to my academic space. Please select a section below:
 
-* **[Specialized Courses & Summer Schools](specialized-courses/)**[cite: 2]
-* **[Academic Presentations & Workshops](academic-presentations/)**[cite: 2]
+* **[Specialized Courses & Summer Schools](specialized-courses/)**
+* **[Academic Presentations & Workshops](academic-presentations/)**
