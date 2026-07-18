@@ -6,11 +6,9 @@ date: 2022-10-24
 type: landing
 
 sections:
-  - block: markdown
-    id: intro-biography
+  - block: resume-biography-3
     content:
-      title: ''
-      subtitle: ''
+      username: admin
       text: |-
         Regis Konan Marcel Djaha is a Data Scientist specializing in the intersection of mathematics and artificial intelligence. Beginning in September 2026, Regis will pursue an MSc in [Computational Engineering and Intelligent Systems](https://www.ehu.eus/es/web/master/master-ingenieria-computacional-sistemas-inteligentes) at the [University of the Basque Country (UPV/EHU)](https://www.ehu.eus/), with the program running through June 2027.
 
@@ -23,39 +21,22 @@ sections:
         His research interests include deep latent variable generative models (Autoencoders, Variational Autoencoders, and β-VAEs), partial differential equations (PDEs), scientific computing, time-series analysis, complex network theory, fluid mechanics, and computational fluid dynamics (CFD).
 
         *También puede descargar mi [🇪🇸 CV en Español (PDF)](uploads/resume_esp.pdf).*
-
-        <div class="flex flex-col items-center justify-center text-center mt-10 gap-6">
-          <!-- Gros Bouton Bleu CV -->
-          <a href="uploads/resume_eng.pdf" class="inline-flex items-center justify-center px-6 py-3.5 border border-transparent text-base font-semibold rounded-lg text-white bg-blue-600 hover:bg-blue-700 transition duration-150 shadow-sm" style="text-decoration: none !important;">
-            <svg class="w-5 h-5 mr-2.5 -ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path></svg>
-            🇬🇧 Download CV (English)
-          </a>
-
-          <!-- Barre de Réseaux Sociaux -->
-          <div class="flex items-center justify-center gap-6 mt-2">
-            <!-- Email -->
-            <a href="mailto:regiskonan@aims.ac.rw" class="text-gray-600 hover:text-blue-600 transition" title="Email">
-              <svg class="w-7 h-7" fill="currentColor" viewBox="0 0 20 20"><path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path><path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path></svg>
-            </a>
-            <!-- LinkedIn -->
-            <a href="https://linkedin.com/in/regisdjaha" target="_blank" rel="noopener" class="text-gray-600 hover:text-blue-600 transition" title="LinkedIn">
-              <svg class="w-7 h-7" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.761 0 5-2.239 5-5v-14c0-2.761-2.239-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
-            </a>
-            <!-- GitHub -->
-            <a href="https://github.com/Regiskonan" target="_blank" rel="noopener" class="text-gray-600 hover:text-blue-600 transition" title="GitHub">
-              <svg class="w-7 h-7" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
-            </a>
-            <!-- ORCID -->
-            <a href="https://orcid.org/0009-0004-5252-759X" target="_blank" rel="noopener" class="text-gray-600 hover:text-blue-600 transition" title="ORCID">
-              <svg class="w-7 h-7" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0C5.372 0 0 5.372 0 12s5.372 12 12 12 12-5.372 12-12S18.628 0 12 0zM7.369 4.378c.541 0 .981.44.981.981 0 .542-.44.981-.981.981-.542 0-.981-.44-.981-.981 0-.541.439-.981.981-.981zm1.48 12.645H6.07V7.161h2.779v9.862zm6.167 0h-2.79V7.161h2.79v1.399c.31-.562.839-.98 1.487-1.242.648-.263 1.341-.395 2.079-.395.962 0 1.831.21 2.607.63.776.42 1.378 1.023 1.805 1.809.426.786.639 1.698.639 2.736 0 1.038-.213 1.953-.639 2.744-.427.791-1.029 1.398-1.805 1.821-.776.423-1.645.635-2.607.635-1.127 0-2.096-.341-2.906-1.022v1.022zM15.016 12.18c0-.629-.117-1.196-.35-1.701a2.64 2.64 0 0 0-.95-1.144 2.628 2.628 0 0 0-1.391-.433c-.503 0-.967.144-1.391.433-.424.289-.741.67-.95 1.144-.21.474-.314 1.011-.314 1.61 0 .628.104 1.192.314 1.692s.526.906.95 1.218c.424.312.888.468 1.391.468s.967-.156 1.391-.468c.424-.312.741-.718.95-1.218.21-.5.315-1.064.315-1.692z"/></svg>
-            </a>
-          </div>
-        </div>
+      button:
+        text: 🇬🇧 Download CV (English)
+        url: uploads/resume_eng.pdf
+      headings:
+        about: ''
+        education: ''
+        interests: ''
     design:
-      columns: '1'
       background:
         gradient_mesh:
           enable: true
+      name:
+        size: md
+      avatar:
+        size: medium
+        shape: circle
 
   - block: markdown
     id: research
