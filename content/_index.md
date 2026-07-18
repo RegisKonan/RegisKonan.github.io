@@ -16,7 +16,9 @@ sections:
     
         His academic background includes an [African Master's in Machine Intelligence (AMMI)](https://aimsammi.org/) from the [African Institute for Mathematical Sciences (AIMS) Senegal](https://aims-senegal.org/) (2023–2024) and a Master's degree in Mathematical Sciences from the [African Institute for Mathematical Sciences (AIMS) Rwanda](https://aims.ac.rw/) (2021–2022). Before specializing in artificial intelligence, Regis earned a Bachelor's degree in Mathematics (2018) and a Master's degree in Mechanics and Energetics (2020) from the [Université Félix Houphouët-Boigny](https://w.univ-fhb.edu.ci/) in Côte d'Ivoire.
 
-        In addition, he collaborated with the [University of Oxford](https://www.ox.ac.uk/) through the Mfano Africa program, researching the Visibility Network Structure of Time Series from Real-World Systems. His research interests include machine learning, probabilistic modeling, deep generative models, scientific computing, and physics-informed artificial intelligence. Regis's research interests include deep latent variable generative models (Autoencoders, Variational Autoencoders, and β-VAEs), stochastic partial differential equations (SPDEs), scientific computing, time-series analysis and complex network theory through visibility graphs, as well as fluid mechanics and computational fluid dynamics (CFD).
+        In addition, he collaborated with the [University of Oxford](https://www.ox.ac.uk/) through the Mfano Africa program, researching the Visibility Network Structure of Time Series from Real-World Systems. His research interests include machine learning, probabilistic modeling, deep generative models, scientific computing, and physics-informed artificial intelligence.
+
+        Regis's research interests include deep latent variable generative models (Autoencoders, Variational Autoencoders, and β-VAEs), partial differential equations (PDEs), scientific computing, time-series analysis and complex network theory, as well as fluid mechanics and computational fluid dynamics (CFD).
 
       button:
         text: Download CV
