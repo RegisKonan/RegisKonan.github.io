@@ -1,11 +1,8 @@
 .powered-by, footer p a[href*="hugoblox.com"], .site-footer p a { display: none !important; }
 
-/* Masquer le titre automatique et l'icône de carte d'identité du bloc biographie */
-.resume-biography h2, 
+/* Masquer uniquement le titre et le badge rond d'identité du bloc biographie */
 #resume-biography-3 h2,
-.section-heading,
-.resume-biography .mb-4 .inline-flex,
-.resume-biography svg,
-[style*="background-color"] .inline-flex {
+#resume-biography-3 .section-heading,
+#resume-biography-3 div[class*="rounded-full"] {
     display: none !important;
 }
