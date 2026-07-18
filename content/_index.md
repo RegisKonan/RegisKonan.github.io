@@ -127,4 +127,18 @@ sections:
         exclude_featured: false
     design:
       view: citation
+
+    - block: collection
+    id: projects
+    content:
+      title: 💻 Featured Projects
+      subtitle: 'Selected open-source repositories and research implementations'
+      text: ''
+      filters:
+        folders:
+          - projects
+        exclude_featured: false
+    design:
+      columns: '1'
+      view: card  # Utilise 'card' pour de belles cartes ou 'showcase' pour une liste moderne
 ---
