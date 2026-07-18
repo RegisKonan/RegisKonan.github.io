@@ -10,9 +10,9 @@ main:
   - name: Papers
     url: /#papers
     weight: 11
-  - name: Talks
-    url: /#talks
-    weight: 12
+  - name: Awards
+    url: /#wards
+    weight: 30
   - name: Certificates
     url: /#Certificates
     weight: 40
