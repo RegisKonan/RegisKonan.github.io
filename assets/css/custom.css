@@ -1,8 +1,7 @@
 .powered-by, footer p a[href*="hugoblox.com"], .site-footer p a { display: none !important; }
 
-/* Supprime l'en-tête (badge + titre) du bloc de biographie de la page d'accueil */
-section.resume-biography div.mx-auto.max-w-7xl div.flex.flex-col.items-center,
-.resume-biography .flex.flex-col.items-center.text-center.mb-12,
-[data-wb-block] .mb-12.flex.flex-col.items-center {
+/* Cache uniquement le conteneur du badge et du titre Professional Summary */
+.resume-biography div.mx-auto div.flex-col.items-center.text-center.mb-12,
+[data-wb-block="resume-biography-3"] .mb-12.flex.flex-col.items-center {
     display: none !important;
 }
