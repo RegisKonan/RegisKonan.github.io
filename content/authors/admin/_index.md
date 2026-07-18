@@ -24,16 +24,16 @@ education:
       year: "2026-2027"
     - course: "MSc in Machine Intelligence"
       institution: "African Institute for Mathematical Sciences (AIMS-AMMI)"
-      year: "2024"
+      year: "2023-2024"
     - course: "MSc in Mathematical Sciences"
       institution: "African Institute for Mathematical Sciences (AIMS Rwanda)"
-      year: "2022"
+      year: "2021-2022"
     - course: "MSc in Mechanics and Energetics (Fluid Mechanics)"
       institution: "University Felix Houphouët-Boigny"
-      year: "2020"
+      year: "2028-2020"
     - course: "BSc in Mathematics and Applications"
       institution: "University Felix Houphouët-Boigny"
-      year: "2018"
+      year: "2015-2018"
 
 social:
   - icon: envelope
