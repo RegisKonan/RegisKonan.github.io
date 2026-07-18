@@ -1,23 +1,7 @@
 .powered-by, footer p a[href*="hugoblox.com"], .site-footer p a { display: none !important; }
 
-/* 1. Masquer l'icône de carte d'identité tout en haut */
-.resume-biography svg path[d*="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"],
-.resume-biography svg[data-icon="user-tie"],
-.resume-biography svg[data-icon="address-card"] {
+/* Supprimer l'en-tête (badge + titre) du bloc biographie, et RIEN d'autre */
+.resume-biography div.mx-auto > div:first-of-type,
+[data-wb-block="resume-biography-3"] div.mx-auto > div:first-of-type {
     display: none !important;
-}
-
-/* 2. Masquer UNIQUEMENT le tout premier rond de la page (le badge du titre) */
-.resume-biography div.rounded-full:first-of-type,
-[data-wb-block] div.rounded-full:first-of-type {
-    display: none !important;
-}
-
-/* 3. Masquer le titre "Professional Summary" */
-.resume-biography h2 {
-    visibility: hidden !important;
-    height: 0 !important;
-    margin: 0 !important;
-    padding: 0 !important;
-    font-size: 0 !important;
 }
