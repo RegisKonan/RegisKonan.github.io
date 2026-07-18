@@ -13,34 +13,34 @@ date: "2026-07-17"
 featured: true
 ---
 
-Voici l'ensemble de mes certifications et attestations obtenues tout au long de mon parcours universitaire et de recherche :
+Here is the complete list of certifications and credentials obtained throughout my academic and research journey:
 
 ---
 
 ### 📜 Data Science Workshop: From theory to Practice
-* **Institution :** African Institute for Mathematical Sciences (AIMS) Research Innovation Centre
-* **Description :** Participation active et complétion du workshop pratique axé sur la transition de la théorie vers les applications réelles en science des données.
+* **Institution:** African Institute for Mathematical Sciences (AIMS) Research Innovation Centre
+* **Description:** Active participation and completion of the practical Data Science workshop focused on transitioning from theory to real-world applications.
 
 ---
 
 ### 📜 Participation in the national phase of the second edition of the CAMES Olympiad
-* **Institution :** African and Malagasy Council for Higher Education (CAMES)
-* **Description :** Participation à la phase nationale lors de la seconde édition des Olympiades universitaires du CAMES sous la bannière de l'Université Felix Houphouët-Boigny (UFHB).
+* **Institution:** African and Malagasy Council for Higher Education (CAMES)
+* **Description:** Participated in the national phase of the second edition of the CAMES university Olympiads, representing University Felix Houphouët-Boigny (UFHB).
 
 ---
 
 ### 📜 Virtual Mentorship Programme in Mathematical Sciences
-* **Institution :** Mfano Africa - Oxford Mathematics
-* **Description :** Complétion réussie du programme intensif de mentorat de recherche virtuel en sciences mathématiques opéré avec l'Université d'Oxford.
+* **Institution:** Mfano Africa - Oxford Mathematics
+* **Description:** Successfully completed the intensive virtual research mentorship program in mathematical sciences conducted in collaboration with Oxford University.
 
 ---
 
 ### 📜 Reproducing Kernel Hilbert Spaces for Machine Learning
-* **Institution :** Basque Center for Applied Mathematics (BCAM), Espagne
-* **Description :** Attestation d'apprentissage avancé sur les fondations théoriques et pratiques des Espaces de Hilbert à Noyau Reproduisant (RKHS) appliqués à l'apprentissage statistique.
+* **Institution:** Basque Center for Applied Mathematics (BCAM), Spain
+* **Description:** Certificate of completion for the advanced specialized course on the theoretical and practical foundations of Reproducing Kernel Hilbert Spaces (RKHS) applied to statistical learning.
 
 ---
 
 ### 📜 Training in Python and Scilab: Application to the study of Partial Differential Equations
-* **Institution :** Mathematical Society of Ivory Coast (SMCI) & Mathematical School of Yamoussoukro (EMY)
-* **Description :** Certificat de formation technique portant sur la programmation scientifique en Python et Scilab, avec une application solide à l'étude et à la modélisation numérique des Équations aux Dérivées Partielles (EDP).
+* **Institution:** Mathematical Society of Ivory Coast (SMCI) & Mathematical School of Yamoussoukro (EMY)
+* **Description:** Technical training certificate covering scientific programming in Python and Scilab, with a solid application to the study and numerical modeling of Partial Differential Equations (PDEs).
