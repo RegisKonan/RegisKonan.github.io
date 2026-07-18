@@ -75,35 +75,45 @@ sections:
           - events
     design:
       view: card
-  - block: collection
-    id: news
+    - block: markdown
+    id: certificates
     content:
-      title: Recent News
-      subtitle: ''
-      text: ''
-      # Page type to display. E.g. post, talk, publication...
-      page_type: blog
-      # Choose how many pages you would like to display (0 = all pages)
-      count: 10
-      # Filter on criteria
-      filters:
-        author: ''
-        category: ''
-        tag: ''
-        exclude_featured: false
-        exclude_future: false
-        exclude_past: false
-        publication_type: ''
-      # Choose how many pages you would like to offset by
-      offset: 0
-      # Page order: descending (desc) or ascending (asc) date.
-      order: desc
+      title: '📜 Certificates'
+      subtitle: 'Professional certifications, workshops, and academic honors'
+      text: |-
+        Here is the complete list of certifications and credentials obtained throughout my academic and research journey:
+
+        ***
+
+        ### Data Science Workshop: From theory to Practice
+        * **Institution:** African Institute for Mathematical Sciences (AIMS) Research Innovation Centre[cite: 2]
+        * **Description:** Active participation and completion of the practical Data Science workshop focused on transitioning from theory to real-world applications[cite: 2].
+
+        ***
+
+        ### Participation in the national phase of the second edition of the CAMES Olympiad
+        * **Institution:** African and Malagasy Council for Higher Education (CAMES)[cite: 2]
+        * **Description:** Participated in the national phase of the second edition of the CAMES university Olympiads, representing University Felix Houphouët-Boigny (UFHB)[cite: 2].
+
+        ***
+
+        ### Virtual Mentorship Programme in Mathematical Sciences
+        * **Institution:** Mfano Africa - Oxford Mathematics[cite: 2]
+        * **Description:** Successfully completed the intensive virtual research mentorship program in mathematical sciences conducted in collaboration with Oxford University[cite: 2].
+
+        ***
+
+        ### Reproducing Kernel Hilbert Spaces for Machine Learning
+        * **Institution:** Basque Center for Applied Mathematics (BCAM), Spain[cite: 2]
+        * **Description:** Certificate of completion for the advanced specialized course on the theoretical and practical foundations of Reproducing Kernel Hilbert Spaces (RKHS) applied to statistical learning[cite: 2].
+
+        ***
+
+        ### Training in Python and Scilab: Application to the study of Partial Differential Equations
+        * **Institution:** Mathematical Society of Ivory Coast (SMCI) & Mathematical School of Yamoussoukro (EMY)[cite: 2]
+        * **Description:** Technical training certificate covering scientific programming in Python and Scilab, with a solid application to the study and numerical modeling of Partial Differential Equations (PDEs)[cite: 2].
     design:
-      # Choose a layout view
-      view: card
-      # Reduce spacing
-      spacing:
-        padding: [0, 0, 0, 0]
+      columns: '1'
   - block: cta-card
     demo: true # Only display this section in the HugoBlox Kit demo site
     content:
