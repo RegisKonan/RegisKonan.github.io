@@ -86,7 +86,7 @@ sections:
 
         ***
 
-        ### Data Science Workshop: From theory to Practice
+        ### Data Science Workshop: From Theory to Practice
         * **Institution:** African Institute for Mathematical Sciences (AIMS) Research Innovation Centre
         * **Description:** Active participation and completion of the practical Data Science workshop focused on transitioning from theory to real-world applications.
 
@@ -94,13 +94,13 @@ sections:
 
         ### Participation in the national phase of the second edition of the CAMES Olympiad
         * **Institution:** African and Malagasy Council for Higher Education (CAMES)
-        * **Description:** Participated in the national phase of the second edition of the CAMES university Olympiads, representing University Felix Houphouët-Boigny (UFHB).
+        * **Description:** Participated in the national phase of the second edition of the CAMES University Olympiads, representing University Felix Houphouët-Boigny (UFHB).
 
         ***
 
         ### Virtual Mentorship Programme in Mathematical Sciences
         * **Institution:** Mfano Africa - Oxford Mathematics
-        * **Description:** Successfully completed the intensive virtual research mentorship program in mathematical sciences conducted in collaboration with Oxford University.
+        * **Description:** Completed the intensive virtual research mentorship program in mathematical sciences conducted in collaboration with Oxford University.
 
         ***
 
