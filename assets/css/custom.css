@@ -1,9 +1,8 @@
 .powered-by, footer p a[href*="hugoblox.com"], .site-footer p a { display: none !important; }
 
-]/* Ciblage par attribut de bloc pour masquer le titre et le badge */
-[data-wb-block*="biography"] h2,
-[data-wb-block*="biography"] .section-heading,
-[data-wb-block*="biography"] div.rounded-full:first-of-type,
-[data-wb-block*="biography"] span.rounded-full:first-of-type {
+/* Supprime l'en-tête (badge + titre) du bloc de biographie de la page d'accueil */
+section.resume-biography div.mx-auto.max-w-7xl div.flex.flex-col.items-center,
+.resume-biography .flex.flex-col.items-center.text-center.mb-12,
+[data-wb-block] .mb-12.flex.flex-col.items-center {
     display: none !important;
 }
