@@ -30,7 +30,7 @@ education:
       year: "2021-2022"
     - course: "MSc in Mechanics and Energetics (Fluid Mechanics)"
       institution: "University Felix Houphouët-Boigny"
-      year: "2028-2020"
+      year: "2018-2020"
     - course: "BSc in Mathematics and Applications"
       institution: "University Felix Houphouët-Boigny"
       year: "2015-2018"
