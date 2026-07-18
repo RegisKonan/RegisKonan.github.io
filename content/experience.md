@@ -41,7 +41,7 @@ sections:
     content:
       title: '🗣️ Languages'
       text: |-
-        * **French** ((Native))
+        * **French** (Native)
         * **English** (Professional)
         * **Spanish** (Basic / Intermediate)
     design:
