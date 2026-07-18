@@ -8,7 +8,7 @@ type: landing
 sections:
   - block: resume-biography-3
     content:
-      username: admin
+      username: me
       text: |-
         Regis Konan Marcel Djaha is a Data Scientist specializing in the intersection of mathematics and artificial intelligence. Beginning in September 2026, Regis will pursue an MSc in [Computational Engineering and Intelligent Systems](https://www.ehu.eus/es/web/master/master-ingenieria-computacional-sistemas-inteligentes) at the [University of the Basque Country (UPV/EHU)](https://www.ehu.eus/), with the program running through June 2027.
 
