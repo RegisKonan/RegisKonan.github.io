@@ -19,9 +19,7 @@ sections:
         In addition, he collaborated with the [University of Oxford](https://www.ox.ac.uk/) through the [Mfano Africa program](https://www.maths.ox.ac.uk/outreach/miorpa), researching the Visibility Network Structure of Time Series from Real-World Systems.
 
         His research interests include deep latent variable generative models (Autoencoders, Variational Autoencoders, and β-VAEs), partial differential equations (PDEs), scientific computing, time-series analysis, complex network theory, fluid mechanics, and computational fluid dynamics (CFD).
-    
-
-    buttons:
+      buttons:
         - text: 🇬🇧 Download CV (EN)
           url: uploads/cv_english.pdf
           icon: download
@@ -43,7 +41,6 @@ sections:
       avatar:
         size: medium
         shape: circle
-    
 
   - block: markdown
     id: research
