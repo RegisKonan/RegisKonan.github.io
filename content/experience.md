@@ -10,7 +10,7 @@ design:
 sections:
   - block: resume-experience
     content:
-      username: admin
+      username: me  # <-- Remis sur 'me' pour faire réapparaître vos expériences
     design:
       # Hugo date format
       date_format: 'January 2006'
@@ -36,17 +36,12 @@ sections:
     design:
       columns: '1'
 
-  - block: resume-awards
-    content:
-      title: Awards
-      username: admin
-
   - block: markdown
     id: languages
     content:
       title: '🗣️ Languages'
       text: |-
-        * **French** (Native)
+        * **French** ((Native))
         * **English** (Professional)
         * **Spanish** (Basic / Intermediate)
     design:
