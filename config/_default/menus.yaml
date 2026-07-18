@@ -7,8 +7,8 @@ main:
   - name: Bio
     url: /
     weight: 10
-  - name: Papers
-    url: /#papers
+  - name: Research
+    url: /#research
     weight: 20
   - name: Awards
     url: /#awards
@@ -25,3 +25,6 @@ main:
   - name: Certificates
     url: /#certificates
     weight: 70
+  - name: Papers
+    url: /#papers
+    weight: 80
