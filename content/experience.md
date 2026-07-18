@@ -6,28 +6,49 @@ type: landing
 design:
   spacing: '5rem'
 
-# Note: `username` refers to the user's folder name in `content/authors/`
-
 # Page sections
 sections:
   - block: resume-experience
     content:
-      username: me
+      username: admin
     design:
       # Hugo date format
       date_format: 'January 2006'
       # Education or Experience section first?
       is_education_first: false
-  - block: resume-skills
+
+  - block: markdown
+    id: skills
     content:
-      title: Skills & Hobbies
-      username: me
+      title: '🛠️ Skills & Hobbies'
+      text: |-
+        ### 💻 Programming Languages
+        * **Python**
+        * **MATLAB**
+        * **R**
+        * **Scilab / C**
+
+        ### 📚 Libraries & Software
+        * **PyTorch / TensorFlow**
+        * **Scikit-learn / Pandas / Numpy**
+        * **Git / GitHub**
+        * **LaTeX / Markdown**
+    design:
+      columns: '1'
+
   - block: resume-awards
     content:
       title: Awards
-      username: me
-  - block: resume-languages
+      username: admin
+
+  - block: markdown
+    id: languages
     content:
-      title: Languages
-      username: me
+      title: '🗣️ Languages'
+      text: |-
+        * **French** (Native)
+        * **English** (Professional)
+        * **Spanish** (Basic / Intermediate)
+    design:
+      columns: '1'
 ---
