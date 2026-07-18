@@ -54,6 +54,7 @@ hugoblox:
       footer:
         background: ""
         foreground: ""
+        css_style: ".powered-by, footer p a { display: none !important; }" # <-- RECOPIE CETTE LIGNE ICI
 
   # ────────────────────────────────────────────────────────────────────────────
   # TYPOGRAPHY
