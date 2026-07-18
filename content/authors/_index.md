@@ -2,7 +2,7 @@
 title: "Regis Konan Marcel Djaha"
 first_name: "Regis Konan Marcel"
 last_name: "Djaha"
-role: "Machine Learning & Intelligent Systems Researcher"
+role: "Machine Learning Researcher"
 avatar: "avatar.jpg"
 
 organizations:
