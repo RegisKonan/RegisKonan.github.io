@@ -7,9 +7,9 @@
     display: none !important;
 }
 
-/* 2. Masquer UNIQUEMENT le premier badge rond du haut (sans toucher à Education/Interests) */
-.resume-biography div.flex-col.items-center > div.rounded-full,
-[data-wb-block] div.flex-col.items-center > div.rounded-full {
+/* 2. Masquer UNIQUEMENT le tout premier rond de la page (le badge du titre) */
+.resume-biography div.rounded-full:first-of-type,
+[data-wb-block] div.rounded-full:first-of-type {
     display: none !important;
 }
 
