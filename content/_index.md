@@ -56,7 +56,7 @@ sections:
       background:
         gradient_mesh:
           enable: true
----
+
   - block: markdown
     id: research
     content:
