@@ -119,7 +119,7 @@ sections:
   - block: collection
     id: papers
     content:
-      title: 📝 Publications
+      title: '📝 Publications'
       text: ''
       filters:
         folders:
@@ -128,10 +128,10 @@ sections:
     design:
       view: citation
 
-    - block: collection
+  - block: collection
     id: projects
     content:
-      title: 💻 Featured Projects
+      title: '💻 Featured Projects'
       subtitle: 'Selected open-source repositories and research implementations'
       text: ''
       filters:
@@ -140,5 +140,5 @@ sections:
         exclude_featured: false
     design:
       columns: '1'
-      view: card  # Utilise 'card' pour de belles cartes ou 'showcase' pour une liste moderne
+      view: card
 ---
