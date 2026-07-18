@@ -25,7 +25,7 @@ sections:
         text: 🇬🇧 Download CV (English)
         url: uploads/resume_eng.pdf
       headings:
-        about: ''
+        about: ' '
         education: ''
         interests: ''
     design:
