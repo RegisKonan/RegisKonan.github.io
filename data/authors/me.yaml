@@ -41,30 +41,30 @@ interests:
 education:
   - degree: MSc in Computational Engineering and Intelligent Systems (Master KISA)
     institution: University of the Basque Country (UPV/EHU)
-    start: 2024-09-01
+    start: 2024-09-07
     end: 2026-06-30
   - degree: MSc in Mathematical Science - Machine Intelligence
     institution: African Institute for Mathematical Sciences (AIMS-AMMI)
-    start: 2023-09-01
-    end: 2024-06-30
+    start: 2023-02-06
+    end: 2024-07-31
     summary: |
       Thesis: Understanding Autoencoders and Variational Autoencoders. Grade: Good Pass.
   - degree: MSc in Mathematical Sciences
     institution: African Institute for Mathematical Sciences (AIMS Rwanda)
     start: 2021-08-01
-    end: 2022-06-30
+    end: 2022-06-28
     summary: |
       Thesis: Application of Darcy's law in a 2D porous embankment. Grade: Good Pass.
   - degree: MSc in Mechanics and Energetics (Fluid Mechanics)
     institution: University Felix Houphouët-Boigny (UFHB)
-    start: 2018-10-01
-    end: 2020-02-30
+    start: 2018-10-22
+    end: 2020-02-28
     summary: |
       Thesis: Influence of the anisotropy of the medium's permeability on advancing the freshwater-dirty water interface. Grade: 17/20.
   - degree: BSc in Mathematics and Applications (major Mechanics)
     institution: University Felix Houphouët-Boigny (UFHB)
-    start: 2015-01-01
-    end: 2018-10-30
+    start: 2015-01-05
+    end: 2018-10-12
 
 experience:
   - role: Research Technician in Statistical Machine Learning
@@ -113,7 +113,7 @@ languages:
     level: 5
     label: Native
   - name: English
-    level: 4
+    level: 3
     label: B2
   - name: Spanish
     level: 1
