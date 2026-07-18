@@ -10,13 +10,14 @@ sections:
     content:
       username: me
       text: |-
-        I am a Data Scientist specializing in the intersection of mathematics and artificial intelligence. Starting in September 2026, I will be pursuing an MSc in Computational Engineering and Intelligent Systems (Master KISA) at the University of the Basque Country (UPV/EHU), running through June 2027. 
+        Regis Konan Marcel Djaha is a Data Scientist specializing in the intersection of mathematics and artificial intelligence. Beginning in September 2026, Regis will pursue an MSc in Computational Engineering and Intelligent Systems (Master KISA) at the [University of the Basque Country (UPV/EHU)](https://www.ehu.eus/), with the program running through June 2027.
+    
+        Before this, Regis worked as a full-time Research Technician at the [Basque Center for Applied Mathematics (BCAM)](https://www.bcamath.org/) within the Statistical Machine Learning Group. His research focused on deep latent variable models, particularly Variational Autoencoders (VAEs), and their applications to both unsupervised and supervised learning.
+    
+        His academic background includes an African Master's in Machine Intelligence [(AMMI)](https://aimsammi.org/) from the [African Institute for Mathematical Sciences (AIMS) Senegal](https://aims-senegal.org/) (2023–2024) and a Master's degree in Mathematical Sciences from the [African Institute for Mathematical Sciences (AIMS) Rwanda](https://aims.ac.rw/) (2021–2022). Before specializing in artificial intelligence, Regis earned a Bachelor's degree in Mathematics (2018) and a Master's degree in Mechanics and Energetics (2020) from the [Université Félix Houphouët-Boigny](https://www.univ-fhb.edu.ci/) in Côte d'Ivoire.
 
-        Recently, I completed a full-time role as a Research Technician at the Basque Center for Applied Mathematics (BCAM) within the Machine Learning group, where my research focused on deep latent variable models—particularly Variational Autoencoders (VAEs)—applied to both unsupervised and supervised learning tasks. Currently, I am further expanding my expertise in Generative AI, Deep Learning, and model optimization through the Data Science and AI Training & Internship Program with Refonte Learning.
+        In addition, he collaborated with the [University of Oxford](https://www.ox.ac.uk/) through the Mfano Africa program, researching the Visibility Network Structure of Time Series from Real-World Systems. His research interests include machine learning, probabilistic modeling, deep generative models, scientific computing, and physics-informed artificial intelligence. Regis's research interests include deep latent variable generative models (Autoencoders, Variational Autoencoders, and β-VAEs), stochastic partial differential equations (SPDEs), scientific computing, time-series analysis and complex network theory through visibility graphs, as well as fluid mechanics and computational fluid dynamics (CFD).
 
-        My academic journey includes an African Master’s in Machine Intelligence (AMMI) at AIMS Senegal (2023) and a Master’s degree in Mathematical Sciences from AIMS Rwanda (2022). Prior to specializing in AI, I solidified my foundations with a Bachelor’s in Mathematics (2018) and a Master’s in Mechanics and Energetics (2020) from the Université Félix Houphouët-Boigny in Côte d'Ivoire. I also had the privilege of collaborating with Oxford University through the Mfano Africa program, researching the "Visibility Network Structure of Time Series from Real-World Systems." 
-
-        With robust practical experience in Python, PyTorch, TensorFlow, Matlab, and R, I am dedicated to developing advanced computational methods to solve complex, real-world problems.
       button:
         text: Download CV
         url: uploads/resume.pdf
