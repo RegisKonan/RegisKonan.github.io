@@ -6,9 +6,11 @@ date: 2022-10-24
 type: landing
 
 sections:
-  - block: resume-biography-3
+  - block: markdown
+    id: intro-biography
     content:
-      username: me
+      title: ''
+      subtitle: ''
       text: |-
         Regis Konan Marcel Djaha is a Data Scientist specializing in the intersection of mathematics and artificial intelligence. Beginning in September 2026, Regis will pursue an MSc in [Computational Engineering and Intelligent Systems](https://www.ehu.eus/es/web/master/master-ingenieria-computacional-sistemas-inteligentes) at the [University of the Basque Country (UPV/EHU)](https://www.ehu.eus/), with the program running through June 2027.
 
@@ -21,22 +23,17 @@ sections:
         His research interests include deep latent variable generative models (Autoencoders, Variational Autoencoders, and β-VAEs), partial differential equations (PDEs), scientific computing, time-series analysis, complex network theory, fluid mechanics, and computational fluid dynamics (CFD).
 
         *También puede descargar mi [🇪🇸 CV en Español (PDF)](uploads/resume_esp.pdf).*
-      button:
-        text: 🇬🇧 Download CV (English)
-        url: uploads/resume_eng.pdf
-      headings:
-        about: ' '
-        education: ''
-        interests: ''
+
+        <div class="mt-6">
+          <a href="uploads/resume_eng.pdf" class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 transition" style="text-decoration: none !important;">
+            🇬🇧 Download CV (English)
+          </a>
+        </div>
     design:
+      columns: '1'
       background:
         gradient_mesh:
           enable: true
-      name:
-        size: md
-      avatar:
-        size: medium
-        shape: circle
 
   - block: markdown
     id: research
