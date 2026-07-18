@@ -21,11 +21,11 @@ sections:
         His research interests include deep latent variable generative models (Autoencoders, Variational Autoencoders, and β-VAEs), partial differential equations (PDEs), scientific computing, time-series analysis, complex network theory, fluid mechanics, and computational fluid dynamics (CFD).
       buttons:
         - text: 🇬🇧 Download CV (EN)
-          url: uploads/cv_english.pdf
+          url: uploads/resume_eng.pdf
           icon: download
           icon_pack: fas
         - text: 🇪🇸 Descargar CV (ES)
-          url: uploads/cv_spanish.pdf
+          url: uploads/cresume_esp.pdf
           icon: download
           icon_pack: fas
       headings:
