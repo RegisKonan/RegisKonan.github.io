@@ -10,13 +10,13 @@ sections:
     content:
       username: me
       text: |-
-        Regis Konan Marcel Djaha is a Data Scientist specializing in the intersection of mathematics and artificial intelligence. Beginning in September 2026, Regis will pursue an MSc in Computational Engineering and Intelligent Systems (Master KISA) at the [University of the Basque Country (UPV/EHU)](https://www.ehu.eus/), with the program running through June 2027.
+        Regis Konan Marcel Djaha is a Data Scientist specializing in the intersection of mathematics and artificial intelligence. Beginning in September 2026, Regis will pursue an MSc in [Computational Engineering and Intelligent Systems](https://www.ehu.eus/es/web/master/master-ingenieria-computacional-sistemas-inteligentes) at the [University of the Basque Country (UPV/EHU)](https://www.ehu.eus/), with the program running through June 2027.
 
         Prior to this, Regis worked as a full-time Research Technician at the [Basque Center for Applied Mathematics (BCAM)](https://www.bcamath.org/) within the Statistical Machine Learning Group. His research focused on deep latent variable models, particularly Variational Autoencoders (VAEs), and their applications to both unsupervised and supervised learning.
 
         His academic background includes an [African Master's in Machine Intelligence (AMMI)](https://aimsammi.org/) from the [African Institute for Mathematical Sciences (AIMS) Senegal](https://aims-senegal.org/) (2023–2024) and a Master's degree in Mathematical Sciences from the [African Institute for Mathematical Sciences (AIMS) Rwanda](https://aims.ac.rw/) (2021–2022). Before specializing in artificial intelligence, Regis earned a Bachelor's degree in Mathematics (2018) and a Master's degree in Mechanics and Energetics (2020) from the [Université Félix Houphouët-Boigny](https://www.univ-fhb.edu.ci/) in Côte d'Ivoire.
 
-        In addition, he collaborated with the [University of Oxford](https://www.ox.ac.uk/) through the Mfano Africa program, researching the Visibility Network Structure of Time Series from Real-World Systems.
+        In addition, he collaborated with the [University of Oxford](https://www.ox.ac.uk/) through the [Mfano Africa program](https://www.maths.ox.ac.uk/outreach/miorpa), researching the Visibility Network Structure of Time Series from Real-World Systems.
 
         His research interests include deep latent variable generative models (Autoencoders, Variational Autoencoders, and β-VAEs), partial differential equations (PDEs), scientific computing, time-series analysis, complex network theory, fluid mechanics, and computational fluid dynamics (CFD).
       button:
