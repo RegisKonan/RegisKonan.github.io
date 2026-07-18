@@ -1,8 +1,9 @@
 .powered-by, footer p a[href*="hugoblox.com"], .site-footer p a { display: none !important; }
 
-/* Masquer uniquement le titre et le badge rond d'identité du bloc biographie */
-#resume-biography-3 h2,
-#resume-biography-3 .section-heading,
-#resume-biography-3 div[class*="rounded-full"] {
+]/* Ciblage par attribut de bloc pour masquer le titre et le badge */
+[data-wb-block*="biography"] h2,
+[data-wb-block*="biography"] .section-heading,
+[data-wb-block*="biography"] div.rounded-full:first-of-type,
+[data-wb-block*="biography"] span.rounded-full:first-of-type {
     display: none !important;
 }
