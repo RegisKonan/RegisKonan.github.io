@@ -8,10 +8,15 @@ type: landing
 sections:
   - block: resume-biography-3
     content:
-      # Choose a user profile to display (a folder name within `content/authors/`)
       username: me
-      text: ''
-      # Show a call-to-action button under your biography? (optional)
+      text: |-
+        I am a Data Scientist specializing in the intersection of mathematics and artificial intelligence. Starting in September 2026, I will be pursuing an MSc in Computational Engineering and Intelligent Systems (Master KISA) at the University of the Basque Country (UPV/EHU), running through June 2027. 
+
+        Recently, I completed a full-time role as a Research Technician at the Basque Center for Applied Mathematics (BCAM) within the Machine Learning group, where my research focused on deep latent variable models—particularly Variational Autoencoders (VAEs)—applied to both unsupervised and supervised learning tasks. Currently, I am further expanding my expertise in Generative AI, Deep Learning, and model optimization through the Data Science and AI Training & Internship Program with Refonte Learning.
+
+        My academic journey includes an African Master’s in Machine Intelligence (AMMI) at AIMS Senegal (2023) and a Master’s degree in Mathematical Sciences from AIMS Rwanda (2022). Prior to specializing in AI, I solidified my foundations with a Bachelor’s in Mathematics (2018) and a Master’s in Mechanics and Energetics (2020) from the Université Félix Houphouët-Boigny in Côte d'Ivoire. I also had the privilege of collaborating with Oxford University through the Mfano Africa program, researching the "Visibility Network Structure of Time Series from Real-World Systems." 
+
+        With robust practical experience in Python, PyTorch, TensorFlow, Matlab, and R, I am dedicated to developing advanced computational methods to solve complex, real-world problems.
       button:
         text: Download CV
         url: uploads/resume.pdf
@@ -20,31 +25,34 @@ sections:
         education: ''
         interests: ''
     design:
-      # Use the new Gradient Mesh which automatically adapts to the selected theme colors
       background:
         gradient_mesh:
           enable: true
-
-      # Name heading sizing to accommodate long or short names
       name:
-        size: md # Options: xs, sm, md, lg (default), xl
-
-      # Avatar customization
+        size: md
       avatar:
-        size: medium # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
-        shape: circle # Options: circle (default), square, rounded
+        size: medium
+        shape: circle
+
   - block: markdown
     content:
       title: '📚 My Research'
-      subtitle: ''
+      subtitle: 'Bridging Mathematics, Deep Learning, and Computational Engineering'
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
+        My research lies at the intersection of mathematical modeling and Statistical Machine Learning. I am deeply interested in developing robust, data-driven solutions by combining solid theoretical foundations with advanced deep learning frameworks.
 
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
+        ### 🧠 Core Research Interests:
+        * **Deep Latent Variable Models:** Investigating the theory, architecture, and applications of Autoencoders (AEs) and Variational Autoencoders (VAEs) for both unsupervised representation learning and supervised tasks.
+        * **Complex Time-Series & Network Theory:** Analyzing real-world dynamical systems using horizontal and vertical visibility graphs to map complex time-series data into network structures.
+        * **Physics-Informed ML & Computational Fluid Dynamics:** Leveraging my background in Partial Differential Equations (PDEs) and fluid mechanics to explore how machine learning can accelerate numerical simulations in porous media and climate science.
+        * **Intelligent Systems:** Preparing to expand my work into advanced computational engineering, focusing on autonomous intelligence and generative systems.
 
-        Please reach out to collaborate 😃
+        With my upcoming MSc at the University of the Basque Country (UPV/EHU), my goal is to further bridge advanced generative AI with scalable computational engineering methods. 
+
+        Please feel free to reach out for collaborations! 😃
     design:
       columns: '1'
+
   - block: collection
     id: papers
     content:
@@ -56,16 +64,7 @@ sections:
     design:
       view: article-grid
       columns: 2
-  - block: collection
-    content:
-      title: Recent Publications
-      text: ''
-      filters:
-        folders:
-          - publications
-        exclude_featured: false
-    design:
-      view: citation
+
   - block: markdown
     id: awards
     content:
@@ -85,6 +84,7 @@ sections:
           African Institute for Mathematical Sciences ($25,000) — Kigali, Rwanda.
     design:
       columns: '1'
+
   - block: markdown
     id: certificates
     content:
@@ -124,8 +124,20 @@ sections:
         * **Description:** Technical training certificate covering scientific programming in Python and Scilab, with a solid application to the study and numerical modeling of Partial Differential Equations (PDEs).
     design:
       columns: '1'
+
+  - block: collection
+    content:
+      title: Recent Publications
+      text: ''
+      filters:
+        folders:
+          - publications
+        exclude_featured: false
+    design:
+      view: citation
+
   - block: cta-card
-    demo: true # Only display this section in the HugoBlox Kit demo site
+    demo: true
     content:
       title: 👉 Build your own academic website like this
       text: |-
@@ -141,7 +153,6 @@ sections:
         url: https://hugoblox.com/templates/
     design:
       card:
-        # Card background color (CSS class)
         css_class: 'bg-gradient-to-br from-primary-500 via-primary-600 to-secondary-600 text-white shadow-2xl'
         css_style: ''
 ---
