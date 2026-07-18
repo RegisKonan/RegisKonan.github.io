@@ -1,1 +1,10 @@
-.powered-by, footer p a[href*="hugoblox.com"], .site-footer p a { display: none !important; }
+/* 1. Masquer la mention Hugo Blox dans le footer */
+.powered-by, footer p a[href*="hugoblox.com"], .site-footer p a { 
+    display: none !important; 
+}
+
+/* 2. Masquer UNIQUEMENT le bloc du titre et du badge en haut de la biographie */
+.resume-biography .mb-12.flex.flex-col.items-center,
+[data-wb-block="resume-biography-3"] .mb-12.flex.flex-col.items-center {
+    display: none !important;
+}
