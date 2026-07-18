@@ -66,15 +66,25 @@ sections:
         exclude_featured: false
     design:
       view: citation
-  - block: collection
-    id: talks
+  - block: markdown
+    id: awards
     content:
-      title: Recent & Upcoming Talks
-      filters:
-        folders:
-          - events
+      title: '🏆 Awards & Scholarships'
+      subtitle: 'Research grants and academic scholarships'
+      text: |-
+        * **Research Technician Grant in Statistical Machine Learning** (2023)  
+          Funded by La Caixa Junior Leader (€19,188) — Basque Center for Applied Mathematics (BCAM), Bilbao, Spain.
+        
+        * **Research Grant in Mathematical Sciences** (2023)  
+          Mfano Africa - Oxford Virtual Mentorship Programme (£230) — Oxford, United Kingdom.
+        
+        * **Full Master's Degree Scholarship — AMMI** (2023)  
+          Funded by Facebook and Google — African Master's in Machine Intelligence, Mbour, Senegal.
+        
+        * **Full Master's Degree Scholarship — AIMS** (2021)  
+          African Institute for Mathematical Sciences ($25,000) — Kigali, Rwanda.
     design:
-      view: card
+      columns: '1'
   - block: markdown
     id: certificates
     content:
