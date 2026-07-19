@@ -14,19 +14,19 @@ bio: "data Scientist specializing in Artificial Intelligence and Machine Learnin
 interests: []
 education:
   courses:
-    - course: "MSc in Computational Engineering and Intelligent Systems (Master KISA)"
+    - course: "MSc in [Computational Engineering and Intelligent Systems (Master KISA)](https://www.ehu.eus/es/web/master/master-ingenieria-computacional-sistemas-inteligentes)"
       institution: "University of the Basque Country (UPV/EHU)"
       year: "2026-2027"
-    - course: "MSc in Machine Intelligence"
+    - course: "[MSc in Machine Intelligence](https://aimsammi.org/)"
       institution: "African Institute for Mathematical Sciences (AIMS-AMMI)"
       year: "2023-2024"
-    - course: "MSc in Mathematical Sciences"
+    - course: "[MSc in Mathematical Sciences](https://aims.ac.rw/)"
       institution: "African Institute for Mathematical Sciences (AIMS Rwanda)"
       year: "2021-2022"
-    - course: "MSc in Mechanics and Energetics (Fluid Mechanics)"
+    - course: "[MSc in Mechanics and Energetics (Fluid Mechanics)](https://w.univ-fhb.edu.ci/)"
       institution: "University Felix Houphouët-Boigny"
       year: "2018-2020"
-    - course: "BSc in Mathematics and Applications"
+    - course: "[BSc in Mathematics and Applications](https://w.univ-fhb.edu.ci/)"
       institution: "University Felix Houphouët-Boigny"
       year: "2015-2018"
 
