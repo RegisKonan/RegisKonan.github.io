@@ -13,37 +13,33 @@
     display: none !important;
 }
 
-/* 3. Masquer le titre "Professional Summary" */
+/* 3. Masquer le titre "Professional Summary" et supprimer son espace */
 .resume-biography h2 {
-    visibility: hidden !important;
-    height: 0 !important;
-    margin: 0 !important;
-    padding: 0 !important;
-    font-size: 0 !important;
+    display: none !important;
 }
 
-/* 4. Configuration de la grille principale : Photo à gauche (1/4), Contenu à droite (3/4) */
+/* 4. Configuration de la grille principale : alignement strict en haut */
 .resume-biography .grid {
     grid-template-columns: 1fr 3fr !important;
-    align-items: start !important; /* Force les deux colonnes à s'aligner pile en haut */
+    align-items: start !important;
 }
 
-/* 5. Forcer le conteneur de droite à occuper 100% de sa zone et coller le haut */
-.resume-biography .grid > div {
-    grid-column: auto !important;
-    width: 100% !important;
-    max-width: 100% !important;
-    padding-top: 0 !important; /* Supprime l'espace vide du haut */
-    margin-top: 0 !important;  /* Supprime l'espace vide du haut */
+/* 5. Forcer la colonne de droite et TOUS ses conteneurs intermédiaires à coller le haut */
+.resume-biography .grid > div:nth-child(2),
+.resume-biography .grid > div:nth-child(2) > div,
+.resume-biography .prose {
+    padding-top: 0 !important;
+    margin-top: 0 !important;
+    top: 0 !important;
 }
 
 /* 6. Supprimer la limite de largeur du texte de la biographie */
 .resume-biography .grid > div:nth-child(2) * {
     max-width: 100% !important;
-    width: 100% !important;
 }
 
-/* 7. Éliminer la marge haute du tout premier paragraphe de texte */
+/* 7. Forcer le tout premier paragraphe à n'avoir aucune marge haute */
+.resume-biography .grid > div:nth-child(2) p:first-child,
 .resume-biography .grid > div:nth-child(2) p:first-of-type {
     margin-top: 0 !important;
     padding-top: 0 !important;
