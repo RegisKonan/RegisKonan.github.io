@@ -11,7 +11,7 @@ organizations:
 
 bio: "data Scientist specializing in Artificial Intelligence and Machine Learning, with a strong background in generative modeling (VAEs), complex networks, and fluid mechanics."
 
-
+interests: []
 education:
   courses:
     - course: "MSc in Computational Engineering and Intelligent Systems (Master KISA)"
