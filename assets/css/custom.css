@@ -21,3 +21,11 @@
     padding: 0 !important;
     font-size: 0 !important;
 }
+
+/* 4. Faire disparaître la colonne Interests et étendre la colonne Education */
+.resume-biography .grid > div:last-child {
+    display: none !important;
+}
+.resume-biography .grid > div:first-child {
+    grid-column: span 2 / span 2 !important;
+}
