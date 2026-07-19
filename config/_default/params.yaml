@@ -234,7 +234,7 @@ hugoblox:
   # REPOSITORY
   # Source code repository for "Edit this page" links
   # ────────────────────────────────────────────────────────────────────────────
-  repository:y
+  repository:
     enable: false
     url: "" # e.g., https://github.com/username/repo
     branch: main
