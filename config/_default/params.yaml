@@ -88,6 +88,10 @@ hugoblox:
     sticky: true
     # Menu alignment
     align: center # left | center | right
+    # Logo configuration
+    logo:
+      text: ""
+      file: "icon.png"
     # Feature toggles
     search: true
     theme_toggle: true
@@ -230,7 +234,7 @@ hugoblox:
   # REPOSITORY
   # Source code repository for "Edit this page" links
   # ────────────────────────────────────────────────────────────────────────────
-  repository:
+  repository:y
     enable: false
     url: "" # e.g., https://github.com/username/repo
     branch: main
