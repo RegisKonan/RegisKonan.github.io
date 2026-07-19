@@ -16,6 +16,7 @@ education:
   courses:
     - course: "[MSc in Computational Engineering and Intelligent Systems](https://www.ehu.eus/es/web/master/master-ingenieria-computacional-sistemas-inteligentes)"
       institution: "University of the Basque Country (UPV/EHU)"
+      url: "https://www.ehu.eus/es/web/master/master-ingenieria-computacional-sistemas-inteligentes"
       year: "2026-2027"
     - course: "[MSc in Machine Intelligence](https://aimsammi.org/)"
       institution: "African Institute for Mathematical Sciences (AIMS-AMMI)"
