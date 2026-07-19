@@ -49,7 +49,7 @@ sections:
         ### 🧠 Core Research Interests:
         * **Deep Latent Variable Models:** Investigating the theory, architecture, and applications of Autoencoders (AEs) and Variational Autoencoders (VAEs) for both unsupervised representation learning and supervised tasks.
         * **Complex Time-Series & Network Theory:** Analyzing real-world dynamical systems using horizontal and vertical visibility graphs to map complex time-series data into network structures.
-        * **Physics-Informed ML & Computational Fluid Dynamics:** Leveraging my background in Partial Differential Equations (PDEs) and fluid mechanics to explore how machine learning can accelerate numerical simulations in porous media and climate science.
+        * **Physics-Informed ML & Computational Fluid Dynamics:** Building on my background in Partial Differential Equations (PDEs) and fluid mechanics, I aim to explore how machine learning can accelerate numerical simulations in porous media and climate science.
         * **Intelligent Systems:** Preparing to expand my work into advanced computational engineering, focusing on autonomous intelligence and generative systems.
 
         With my upcoming MSc at the University of the Basque Country (UPV/EHU), my goal is to further bridge advanced generative AI with scalable computational engineering methods. 
