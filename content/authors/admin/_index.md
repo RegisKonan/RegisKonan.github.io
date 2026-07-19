@@ -11,11 +11,6 @@ organizations:
 
 bio: "Data Scientist specializing in Artificial Intelligence and Machine Learning, with a strong background in generative modeling (VAEs), complex networks, and fluid mechanics."
 
-interests:
-  - Deep Latent Variable Generative Modeling (VAEs, AEs, β-VAEs)
-  - Stochastic PDEs & Scientific Computing
-  - Time-Series Analysis & Network Theory (Visibility Graphs)
-  - Fluid Mechanics & Computational Fluid Dynamics (CFD)
 
 education:
   courses:
