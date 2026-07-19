@@ -4,7 +4,7 @@ title: "Regis Konan Marcel Djaha"
 first_name: "Regis Konan Marcel"
 last_name: "Djaha"
 role: "Machine Learning & Intelligent Systems Researcher"
-
+ 
 organizations:
   - name: "University of the Basque Country (UPV/EHU)"
     url: "https://www.ehu.eus"
