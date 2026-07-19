@@ -56,10 +56,40 @@
     gap: 1.5rem !important;
 }
 
-/* 9. NOUVELLE AUGMENTATION DE LA TAILLE DU TEXTE DE LA BIOGRAPHIE */
+/* 9. Augmentation de la taille du texte de la biographie */
 .resume-biography .grid > div:nth-child(2) p {
-    font-size: 1.25rem !important; /* Texte encore plus grand et imposant */
-    line-height: 1.85 !important;  /* Interligne augmenté pour un confort visuel parfait */
+    font-size: 1.25rem !important;
+    line-height: 1.85 !important;
+}
+
+/* 10. ORGANISATION DU NOM : Deux à deux (Regis Konan / Marcel Djaha) */
+.resume-biography h1 {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    font-size: 2rem !important; /* Ajustement de sécurité pour éviter que ça bave */
+}
+
+/* Groupe 1 : Regis Konan */
+.resume-biography h1::before {
+    content: "Regis Konan" !important;
+    white-space: nowrap !important;
+}
+
+/* Groupe 2 : Marcel Djaha */
+.resume-biography h1::after {
+    content: "Marcel Djaha" !important;
+    white-space: nowrap !important;
+}
+
+/* Masquer le texte original brut pour ne garder que la structure en deux lignes */
+.resume-biography h1 {
+    font-size: 0 !important;
+}
+.resume-biography h1::before,
+.resume-biography h1::after {
+    font-size: 2.25rem !important; /* Ta vraie taille de titre voulue */
+    font-weight: 800 !important;
 }
 
 /* Ajustement responsive pour petits écrans (Smartphones) */
