@@ -28,7 +28,6 @@ sections:
       headings:
         about: ''
         education: "Education"
-        interests: ""
     design:
       background:
         gradient_mesh:
