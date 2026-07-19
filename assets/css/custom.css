@@ -56,6 +56,12 @@
     gap: 1.5rem !important;
 }
 
+/* 9. AUGMENTATION DE LA TAILLE DU TEXTE DE LA BIOGRAPHIE */
+.resume-biography .grid > div:nth-child(2) p {
+    font-size: 1.15rem !important; /* Augmente la taille du texte (par défaut ~1rem) */
+    line-height: 1.75 !important;   /* Donne de l'espace entre les lignes pour une lecture fluide */
+}
+
 /* Ajustement responsive pour petits écrans (Smartphones) */
 @media (max-width: 768px) {
     .resume-biography .grid {
