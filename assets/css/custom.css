@@ -25,13 +25,16 @@
 /* 4. Configuration de la grille principale : Photo à gauche (1/4), Contenu à droite (3/4) */
 .resume-biography .grid {
     grid-template-columns: 1fr 3fr !important;
+    align-items: start !important; /* Force les deux colonnes à s'aligner pile en haut */
 }
 
-/* 5. Forcer le conteneur de droite à occuper 100% de sa zone */
+/* 5. Forcer le conteneur de droite à occuper 100% de sa zone et coller le haut */
 .resume-biography .grid > div {
     grid-column: auto !important;
     width: 100% !important;
     max-width: 100% !important;
+    padding-top: 0 !important; /* Supprime l'espace vide du haut */
+    margin-top: 0 !important;  /* Supprime l'espace vide du haut */
 }
 
 /* 6. Supprimer la limite de largeur du texte de la biographie */
@@ -40,7 +43,13 @@
     width: 100% !important;
 }
 
-/* 7. EXCEPTION : Redonner au bouton "Download CV" sa petite taille d'origine */
+/* 7. Éliminer la marge haute du tout premier paragraphe de texte */
+.resume-biography .grid > div:nth-child(2) p:first-of-type {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+}
+
+/* 8. EXCEPTION : Redonner au bouton "Download CV" sa petite taille d'origine */
 .resume-biography .grid > div:nth-child(2) a.btn,
 .resume-biography .grid > div:nth-child(2) a[href*="pdf"],
 .resume-biography .grid > div:nth-child(2) a.inline-flex {
@@ -49,7 +58,7 @@
     display: inline-flex !important;
 }
 
-/* 8. Aligner les diplômes sur 3 colonnes pour occuper tout l'espace en bas de façon équilibrée */
+/* 9. Aligner les diplômes sur 3 colonnes pour occuper tout l'espace en bas de façon équilibrée */
 .resume-biography .grid .grid {
     grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
     width: 100% !important;
