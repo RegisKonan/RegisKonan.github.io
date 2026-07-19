@@ -34,14 +34,22 @@
     max-width: 100% !important;
 }
 
-/* 6. ANNIHILER TOUTES LES RESTRICTIONS DE LARGEUR DU TEXTE */
-.resume-biography .grid > div:nth-child(2) *,
-.resume-biography div[class*="max-w-"] {
+/* 6. Supprimer la limite de largeur du texte de la biographie */
+.resume-biography .grid > div:nth-child(2) * {
     max-width: 100% !important;
     width: 100% !important;
 }
 
-/* 7. Aligner les diplômes sur 3 colonnes pour occuper tout l'espace en bas de façon équilibrée */
+/* 7. EXCEPTION : Redonner au bouton "Download CV" sa petite taille d'origine */
+.resume-biography .grid > div:nth-child(2) a.btn,
+.resume-biography .grid > div:nth-child(2) a[href*="pdf"],
+.resume-biography .grid > div:nth-child(2) a.inline-flex {
+    width: auto !important;
+    max-width: max-content !important;
+    display: inline-flex !important;
+}
+
+/* 8. Aligner les diplômes sur 3 colonnes pour occuper tout l'espace en bas de façon équilibrée */
 .resume-biography .grid .grid {
     grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
     width: 100% !important;
