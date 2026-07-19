@@ -22,26 +22,34 @@
     font-size: 0 !important;
 }
 
-/* 4. Forcer la grille principale à se diviser proprement (photo à gauche, bio à droite) */
+/* 4. Configuration de la grille principale : Photo à gauche (1/4), Contenu à droite (3/4) */
 .resume-biography .grid {
     grid-template-columns: 1fr 3fr !important;
 }
 
-/* 5. S'assurer que le bloc de droite prend toute sa largeur */
+/* 5. Forcer le conteneur de droite à occuper 100% de sa zone */
 .resume-biography .grid > div {
     grid-column: auto !important;
     width: 100% !important;
     max-width: 100% !important;
 }
 
-/* 6. Passer les diplômes sur 3 colonnes pour occuper tout l'espace en bas de l'écran */
+/* 6. LIBÉRER LE TEXTE : Supprimer la limite de largeur du texte "About me" */
+.resume-biography .prose, 
+.resume-biography .article-style,
+.resume-biography p {
+    max-width: 100% !important;
+    width: 100% !important;
+}
+
+/* 7. Aligner les diplômes sur 3 colonnes pour occuper tout l'espace en bas de façon équilibrée */
 .resume-biography .grid .grid {
     grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
     width: 100% !important;
     gap: 1.5rem !important;
 }
 
-/* Ajustement mobile : si l'écran est petit, on repasse sur une seule colonne */
+/* Ajustement responsive pour petits écrans (Smartphones) */
 @media (max-width: 768px) {
     .resume-biography .grid {
         grid-template-columns: 1fr !important;
