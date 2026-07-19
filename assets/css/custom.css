@@ -34,10 +34,9 @@
     max-width: 100% !important;
 }
 
-/* 6. LIBÉRER LE TEXTE : Supprimer la limite de largeur du texte "About me" */
-.resume-biography .prose, 
-.resume-biography .article-style,
-.resume-biography p {
+/* 6. ANNIHILER TOUTES LES RESTRICTIONS DE LARGEUR DU TEXTE */
+.resume-biography .grid > div:nth-child(2) *,
+.resume-biography div[class*="max-w-"] {
     max-width: 100% !important;
     width: 100% !important;
 }
