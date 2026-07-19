@@ -13,49 +13,48 @@
     display: none !important;
 }
 
-/* 3. Masquer le titre "Professional Summary" et supprimer son espace */
+/* 3. Masquer le titre "Professional Summary" */
 .resume-biography h2 {
     display: none !important;
 }
 
-/* 4. Configuration de la grille principale : alignement strict en haut */
-.resume-biography .grid {
+/* 4. Configuration STRICTE de la grille principale (uniquement le premier niveau) */
+.resume-biography > div.grid,
+[data-wb-block="resume-biography-3"] > div.grid {
     grid-template-columns: 1fr 3fr !important;
     align-items: start !important;
 }
 
-/* 5. Forcer la colonne de droite et TOUS ses conteneurs intermédiaires à coller le haut */
-.resume-biography .grid > div:nth-child(2),
-.resume-biography .grid > div:nth-child(2) > div,
-.resume-biography .prose {
+/* 5. Forcer la colonne de droite à se coller tout en haut */
+.resume-biography > div.grid > div:nth-child(2) {
     padding-top: 0 !important;
     margin-top: 0 !important;
-    top: 0 !important;
 }
 
 /* 6. Supprimer la limite de largeur du texte de la biographie */
-.resume-biography .grid > div:nth-child(2) * {
+.resume-biography > div.grid > div:nth-child(2) .prose,
+.resume-biography > div.grid > div:nth-child(2) p {
     max-width: 100% !important;
+    width: 100% !important;
 }
 
-/* 7. Forcer le tout premier paragraphe à n'avoir aucune marge haute */
-.resume-biography .grid > div:nth-child(2) p:first-child,
-.resume-biography .grid > div:nth-child(2) p:first-of-type {
+/* 7. Éliminer la marge haute du tout premier paragraphe de texte */
+.resume-biography > div.grid > div:nth-child(2) p:first-of-type {
     margin-top: 0 !important;
     padding-top: 0 !important;
 }
 
 /* 8. EXCEPTION : Redonner au bouton "Download CV" sa petite taille d'origine */
-.resume-biography .grid > div:nth-child(2) a.btn,
-.resume-biography .grid > div:nth-child(2) a[href*="pdf"],
-.resume-biography .grid > div:nth-child(2) a.inline-flex {
+.resume-biography > div.grid > div:nth-child(2) a.btn,
+.resume-biography > div.grid > div:nth-child(2) a[href*="pdf"],
+.resume-biography > div.grid > div:nth-child(2) a.inline-flex {
     width: auto !important;
     max-width: max-content !important;
     display: inline-flex !important;
 }
 
 /* 9. Aligner les diplômes sur 3 colonnes pour occuper tout l'espace en bas de façon équilibrée */
-.resume-biography .grid .grid {
+.resume-biography > div.grid > div:nth-child(2) .grid {
     grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
     width: 100% !important;
     gap: 1.5rem !important;
@@ -63,10 +62,10 @@
 
 /* Ajustement responsive pour petits écrans (Smartphones) */
 @media (max-width: 768px) {
-    .resume-biography .grid {
+    .resume-biography > div.grid {
         grid-template-columns: 1fr !important;
     }
-    .resume-biography .grid .grid {
+    .resume-biography > div.grid > div:nth-child(2) .grid {
         grid-template-columns: 1fr !important;
     }
 }
