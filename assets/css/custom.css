@@ -20,16 +20,22 @@
     margin: 0 !important;
     padding: 0 !important;
     font-size: 0 !important;
-} 
-
-/* 4. Forcer la zone de droite (Bio + Education) à utiliser 100% de l'espace disponible */
-.resume-biography .grid > div:nth-child(2) {
-    grid-column: span 2 / span 2 !important;
-    width: 100% !important;
 }
 
-/* 5. Élargir la sous-grille des cartes d'Education pour occuper l'espace libéré */
-.resume-biography .grid > div:nth-child(2) .grid {
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)) !important;
+/* 4. Forcer la grille principale à se diviser en 2 colonnes au lieu de 3 (1/4 pour la photo, 3/4 pour ton texte) */
+.resume-biography .grid {
+    grid-template-columns: 1fr 3fr !important;
+}
+
+/* 5. Empêcher le texte de se recroqueviller et forcer les blocs à occuper 100% de la grande colonne de droite */
+.resume-biography .grid > div {
+    grid-column: auto !important;
+    width: 100% !important;
+    max-width: 100% !important;
+}
+
+/* 6. Aligner les cartes d'Education sur 2 colonnes très larges pour remplir tout l'espace du bas */
+.resume-biography .grid .grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
     width: 100% !important;
 }
