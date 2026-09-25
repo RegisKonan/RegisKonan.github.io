@@ -11,15 +11,22 @@ sections:
       username: me
       title: ""
       text: |-
-        Regis Konan Marcel Djaha is a Data Scientist specializing in the intersection of mathematics and artificial intelligence. Beginning in September 2026, Regis will pursue an MSc in [Computational Engineering and Intelligent Systems](https://www.ehu.eus/es/web/master/master-ingenieria-computacional-sistemas-inteligentes) at the [University of the Basque Country (UPV/EHU)](https://www.ehu.eus/), with the program running through June 2027.
+        **Regis Konan Marcel Djaha** is an AI Researcher specializing at the intersection of Applied Mathematics, Deep Probabilistic Modeling, and Scientific Machine Learning (SciML). He is currently pursuing an MSc in [Computational Engineering and Intelligent Systems](https://www.ehu.eus/es/web/master/master-ingenieria-computacional-sistemas-inteligentes) at the [University of the Basque Country (UPV/EHU)](https://www.ehu.eus/) (2026–2027), where he is directing his research toward the synergy between deep learning and numerical analysis in preparation for a PhD.
 
-        Prior to this, Regis worked as a full-time Research Technician at the [Basque Center for Applied Mathematics (BCAM)](https://www.bcamath.org/) within the Statistical Machine Learning Group. His research focused on deep latent variable models, particularly Variational Autoencoders (VAEs), and their applications to both unsupervised and supervised learning.
+Prior to this, Regis worked as a full-time Research Technician at the [Basque Center for Applied Mathematics (BCAM)](https://www.bcamath.org/) within the Statistical Machine Learning Group. His research focused on deep latent variable models, particularly Variational Autoencoders (VAEs), and their applications to both unsupervised and supervised learning tasks. He also collaborated with researchers at the [University of Oxford](https://www.ox.ac.uk/) through the [Mfano Africa program](https://www.maths.ox.ac.uk/outreach/miorpa), investigating the visibility network structure of complex multivariate time series.
 
-        His academic background includes an [African Master's in Machine Intelligence (AMMI)](https://aimsammi.org/) from the [African Institute for Mathematical Sciences (AIMS) Senegal](https://aims-senegal.org/) (2023–2024) and a Master's degree in Mathematical Sciences from the [African Institute for Mathematical Sciences (AIMS) Rwanda](https://aims.ac.rw/) (2021–2022). Before specializing in artificial intelligence, Regis earned a Bachelor's degree in Mathematics (2018) and a Master's degree in Mechanics and Energetics (2020) from the [Université Félix Houphouët-Boigny](https://w.univ-fhb.edu.ci/) in Ivory Coast.
+His academic background bridges rigorous foundations in mathematics, physical sciences, and modern artificial intelligence:
+* **African Master’s in Machine Intelligence (AMMI)** – [AIMS Senegal](https://aims-senegal.org/) (2023–2024)
+* **MSc in Mathematical Sciences** – [AIMS Rwanda](https://aims.ac.rw/) (2021–2022)
+* **MSc in Mechanics and Energetics (Fluid Dynamics)** – [Université Félix Houphouët-Boigny](https://w.univ-fhb.edu.ci/), Côte d'Ivoire (2018–2020)
+* **BSc in Mathematics** – [Université Félix Houphouët-Boigny](https://w.univ-fhb.edu.ci/), Côte d'Ivoire (2015–2018)
 
-        In addition, he collaborated with the [University of Oxford](https://www.ox.ac.uk/) through the [Mfano Africa program](https://www.maths.ox.ac.uk/outreach/miorpa), researching the Visibility Network Structure of Time Series from Real-World Systems.
+### Research Interests
+* **Scientific Machine Learning (SciML):** Physics-informed machine learning, neural operators, surrogate modeling for partial differential equations (PDEs), and computational fluid dynamics (CFD).
+* **Deep Generative & Probabilistic Models:** Deep latent variable models, Variational Autoencoders (VAEs, $\beta$-VAEs), and representation learning.
+* **Complex Dynamical Systems:** Multivariate time-series analysis, visibility graphs, and complex network theory.
 
-        His research interests include deep latent variable generative models (Autoencoders, Variational Autoencoders, and β-VAEs), partial differential equations (PDEs), scientific computing, time-series analysis, complex network theory, fluid mechanics, and computational fluid dynamics (CFD).
+*Regis is actively preparing his Master's Thesis (TFM) and seeking PhD opportunities in Artificial Intelligence and Scientific Machine Learning.*
 
         *También puede descargar mi [🇪🇸 CV en Español (PDF)](uploads/resume_esp.pdf).*
       button:
@@ -47,14 +54,13 @@ sections:
         My research lies at the intersection of mathematical modeling and Statistical Machine Learning. I am deeply interested in developing robust, data-driven solutions by combining solid theoretical foundations with advanced deep learning frameworks.
 
         ### 🧠 Core Research Interests:
-        * **Deep Latent Variable Models:** Investigating the theory, architecture, and applications of Autoencoders (AEs) and Variational Autoencoders (VAEs) for both unsupervised representation learning and supervised tasks.
-        * **Complex Time-Series & Network Theory:** Analyzing real-world dynamical systems using horizontal and vertical visibility graphs to map complex time-series data into network structures.
-        * **Physics-Informed ML & Computational Fluid Dynamics:** Building on my background in Partial Differential Equations (PDEs) and fluid mechanics, I aim to explore how machine learning can accelerate numerical simulations in porous media and climate science.
-        * **Intelligent Systems:** Preparing to expand my work into advanced computational engineering, focusing on autonomous intelligence and generative systems.
+        * **Scientific Machine Learning (SciML):** Physics-informed machine learning, neural operators, surrogate modeling for partial differential equations (PDEs), and computational fluid dynamics (CFD).
+        * **Deep Generative & Probabilistic Models:** Deep latent variable models, Variational Autoencoders (VAEs, $\beta$-VAEs), and representation learning.
+        * **Complex Dynamical Systems:** Multivariate time-series analysis, visibility graphs, and complex network theory.
 
-        With my upcoming MSc at the University of the Basque Country (UPV/EHU), my goal is to further bridge advanced generative AI with scalable computational engineering methods. 
+        Currently pursuing his MSc at the University of the Basque Country (UPV/EHU), *Regis is actively preparing his Master's Thesis (TFM) and seeking PhD opportunities in Artificial Intelligence and Scientific Machine Learning.*
 
-        Please feel free to reach out for collaborations! 😃
+        
     design:
       columns: '1'
 
