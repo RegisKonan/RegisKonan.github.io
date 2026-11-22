@@ -21,7 +21,7 @@
   <a href="https://hugoblox.com/templates/academic-cv?utm_source=github&utm_medium=readme&utm_content=demo">Live Demo</a>
 </p>
 
-<div align="center">
+<div align="center"> 
 
   <a href="https://github.com/HugoBlox/hugo-theme-academic-cv">
     <img src="https://img.shields.io/github/stars/HugoBlox/hugo-theme-academic-cv?label=Star&logo=github&style=flat-square&color=181717" alt="GitHub Stars">
