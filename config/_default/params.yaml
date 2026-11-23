@@ -90,7 +90,7 @@ hugoblox:
     align: right # left | center | right
     # Logo configuration
     logo:
-      text: "Regis K. M. Djaha"
+      text: ""
       file: "icon.png"
     # Feature toggles
     search: true
