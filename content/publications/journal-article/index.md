@@ -3,7 +3,7 @@ title: "Enhancing Obesity Detection Through SMOTE-based Classification Models: A
 authors:
   - John Kamwele Mutinda
   - Amos Langat
-  - admin
+  - me
   - Jackson Ndoto Munyao
   - Lee Whitaker
   - Millicent Auma Omondi

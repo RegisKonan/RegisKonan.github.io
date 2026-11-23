@@ -4,15 +4,13 @@ slug: me
 is_owner: true
 name:
   display: Regis Konan Marcel Djaha
-  given: Regis Konan
-  family: Marcel Djaha
+  given: Regis Konan Marcel
+  family: Djaha
   alternate: ''
   pronunciation: ''
   pronouns: he/him
 postnominals:
   - MSc
-status:
-  icon: "🔬"
 role: Machine Learning & Intelligent Systems Researcher
 bio: |
   Data Scientist specializing in Artificial Intelligence and Machine Learning, with a strong background in generative modeling (VAEs), complex networks, and fluid mechanics.

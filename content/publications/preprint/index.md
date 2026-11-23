@@ -2,10 +2,11 @@
 title: "A comparative study of Bitcoin and Ripple's cryptocurrencies trading using Deep Reinforcement Learning"
 authors:
   - Dieu-Donné Fangnon
-  - Armandine Sorel KOUYIM
-  - Verlon Roel MBINGUI
-  - Phanie Dianelle NEGHO
-  - admin
+  - Armandine Sorel Kouyim Meli
+  - Verlon Roel Mbingui
+  - Phanie Dianelle Negho
+  - me
+  - Lema Logamou Seknewna
 date: "2024-09-01"
 publishDate: "2024-09-01"
 publication_types: ["paper-conference"]

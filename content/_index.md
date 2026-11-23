@@ -21,7 +21,7 @@ sections:
         * **MSc in Mechanics and Energetics (Fluid Dynamics)** – [Université Félix Houphouët-Boigny](https://w.univ-fhb.edu.ci/), Côte d'Ivoire (2018–2020)
         * **BSc in Mathematics** – [Université Félix Houphouët-Boigny](https://w.univ-fhb.edu.ci/), Côte d'Ivoire (2015–2018)
 
-        *Regis is actively preparing his Master's Thesis (TFM) and seeking PhD opportunities in Artificial Intelligence and Scientific Machine Learning.*
+        > 🎓 **Open to PhD positions (starting 2027)** in Scientific Machine Learning, Probabilistic Deep Learning, and AI for science & engineering. [Get in touch](mailto:regiskonan056@gmail.com).
 
         *También puede descargar mi [🇪🇸 CV en Español (PDF)](uploads/resume_esp.pdf).*
       button:
@@ -43,17 +43,17 @@ sections:
   - block: markdown
     id: research
     content:
-      title: '📚 My Research'
+      title: '📚 Research'
       subtitle: 'Bridging Mathematics, Deep Learning, and Computational Engineering'
       text: |-
-        My research lies at the intersection of mathematical modeling, numerical analysis, and Statistical Machine Learning. I am deeply interested in developing robust, physics-aware, and data-driven methods by combining solid theoretical foundations with modern deep learning.
+        Regis's research lies at the intersection of mathematical modeling, numerical analysis, and statistical machine learning. He develops robust, physics-aware, data-driven methods that combine solid theoretical foundations with modern deep learning, with particular attention to uncertainty quantification.
 
-        ### 🧠 Core Research Pillars:
+        ### 🧠 Core Research Pillars
         * **Scientific Machine Learning (SciML):** Physics-informed neural networks (PINNs), neural operators (FNO, DeepONet), surrogate modeling for partial differential equations (PDEs), and computational fluid dynamics (CFD).
-        * **Deep Generative & Probabilistic Models:** Deep latent variable models, Variational Autoencoders (VAEs, $\beta$-VAEs), and representation learning.
+        * **Deep Generative & Probabilistic Models:** Deep latent variable models, Variational Autoencoders (VAEs, $\beta$-VAEs), Bayesian deep learning, and representation learning.
         * **Complex Dynamical Systems:** Multivariate time-series analysis, visibility graphs, and complex network theory.
 
-        Through my ongoing MSc at the University of the Basque Country (UPV/EHU), I am actively preparing my Master's Thesis (TFM) in Scientific Machine Learning and seeking PhD opportunities in Artificial Intelligence.
+        His current MSc work at UPV/EHU, including his Master's Thesis (TFM), focuses on Scientific Machine Learning.
     design:
       columns: '1'
 
@@ -64,16 +64,16 @@ sections:
       subtitle: 'Research grants and academic scholarships'
       text: |-
         * **Research Technician Grant in Statistical Machine Learning** (2023)  
-          Funded by La Caixa Junior Leader (€19,188) — Basque Center for Applied Mathematics (BCAM), Bilbao, Spain.
+          Funded by La Caixa Junior Leader — Basque Center for Applied Mathematics (BCAM), Bilbao, Spain.
         
         * **Research Grant in Mathematical Sciences** (2023)  
-          Mfano Africa - Oxford Virtual Mentorship Programme (£230) — Oxford, United Kingdom.
+          Mfano Africa – Oxford Virtual Mentorship Programme — Oxford, United Kingdom.
         
         * **Full Master's Degree Scholarship — AMMI** (2023)  
-          Funded by Facebook and Google — African Master's in Machine Intelligence, Mbour, Senegal.
+          Funded by Meta (Facebook) and Google — African Master's in Machine Intelligence, Mbour, Senegal.
         
         * **Full Master's Degree Scholarship — AIMS** (2021)  
-          African Institute for Mathematical Sciences ($25,000) — Kigali, Rwanda.
+          African Institute for Mathematical Sciences — Kigali, Rwanda.
     design:
       columns: '1'
 
