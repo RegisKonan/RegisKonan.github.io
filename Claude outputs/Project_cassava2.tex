@@ -1,0 +1,183 @@
+\documentclass[10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{url}
+\usepackage{hyperref}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{lipsum}
+\usepackage{multicol}
+\usepackage{xcolor}
+\usepackage{natbib}
+\usepackage[font=small]{caption}
+\addtolength{\abovecaptionskip}{-3mm}
+\addtolength{\textfloatsep}{-5mm}
+\setlength\columnsep{20pt}
+
+\usepackage[a4paper,left=1.50cm, right=1.50cm, top=1.50cm, bottom=1.50cm]{geometry}
+\renewcommand{\bibname}{References}
+
+\author{}
+
+\title{Cassava Disease Classification}
+
+\begin{document}
+	
+	\begin{center}
+		{\Large \textbf{Project: Cassava Disease Classification}}\\
+		\vspace{1em}
+		{\large Elie MULAMBA, Regis Konan Marcel DJAHA}\\
+		\vspace{0.5em}
+		{African Master's in Machine Intelligence (AMMI) -- AIMS Senegal}
+	\end{center}
+	
+
+	\begin{center}
+		\rule{150mm}{0.2mm}
+	\end{center}		
+
+	\begin{abstract}
+This study proposes a cassava leaf disease detection system using convolutional neural networks (CNNs) with ResNets and EfficientNets architectures. A dataset of 9,436 labeled images of cassava leaves from Uganda was used for training and evaluation. The methodology includes data preprocessing, model training, quantization, and evaluation based on classification accuracy. The results aim to contribute to the development of an effective cassava Disease Classification system for protecting cassava production in Africa.
+%\textbf{Collaborators}: list the names and affiliations of expected collaborators on the project here
+\end{abstract}
+
+	\begin{center}
+		\rule{150mm}{0.2mm}
+	\end{center}		
+
+	\vspace{5mm}
+	
+\begin{multicols*}{2}
+
+\section{Introduction}
+Cassava is a very common plant in Africa and has many advantages. One of the advantages of cassava is that it can replace rice. According to statistical data from the Economic Community of West African States in 2018, cassava production in Africa amounted to 169 million tonnes per year. In addition to being a food ingredient, cassava can also be used as an industrial raw material and animal feed. Cassava contains about 60\% water, 25-35\% starch, protein, fiber, minerals, phosphate, and calcium. Cassava is also a more important source of energy than maize, sweet potato, rice, and sorghum. In addition, cassava is a staple food in many parts of sub-Saharan Africa. Africa produces about half of the world's cassava. Its production has declined due to a disease attacking cassava plants, resulting in a loss of about 12-23 million dollars. It is therefore important to identify cassava pests and diseases. Early detection and identification of plant diseases are therefore the main factors in preventing and reducing the spread of cassava plant diseases.
+This study will apply the convolutional neural network (CNN) method with the ResNet and EfficientNet architectures and the PyTorch library to recognize images of cassava leaves, focusing on finding the best classification accuracy in cassava leaf disease detection. \\
+\section{Data and Methodology}
+
+\subsection{Data}
+The dataset consisted of labeled images of cassava leaves, with a total of 9,436 images. These images were collected through a survey conducted in Uganda, with the participation of farmers who contributed images of their cassava gardens. The dataset included five fine-grained categories: four diseases (Cassava Bacterial Blight, CBB; Cassava Green Mottle, CGM; Cassava Mosaic Disease, CMD; Cassava Brown Streak Disease, CBSD) and healthy leaves. The images were annotated by experts from the National Crops Resources Research Institute (NaCRRI) in collaboration with the AI lab at Makerere University.
+\begin{figure}[H]
+    \centering
+	\includegraphics[width=1\columnwidth]{im1.png}
+	\caption{Example images of the five classes: healthy leaves and the four cassava diseases.}
+	\label{fig:fig1}
+\end{figure}
+\subsection{Methodology}
+The methodology used in the cassava leaf disease detection study involves several steps to train and evaluate the classification models. Namely, Data Collection, Data Preprocessing and Augmentation, Model Architecture Selection, Model Training,  Quantization, and Evaluation. 
+\section{Results and Discussions}
+\begin{table}[H]
+\centering
+\begin{tabular}{ |c|c| }
+ \hline
+ \multicolumn{2}{|c|}{\textbf{data train transforms}} \\
+\hline
+Technique & Value \\
+\hline
+RandomRotation & 30 \\
+\hline
+RandomResizedCrop & 500 \\
+\hline
+RandomHorizontalFlip & 0.3 \\
+\hline
+RandomErasing & 0.1 \\
+\hline
+Normalize & True \\
+\hline
+\end{tabular}
+ \caption{Transformations applied to the training images (data augmentation).}
+\end{table}
+
+\begin{table}[H]
+\centering
+\begin{tabular}{ |c|c| }
+ \hline
+      \multicolumn{2}{|c|}{\textbf{data test transforms}} \\
+\hline
+       Resize & 550 \\
+      \hline
+      CenterCrop & 500 \\
+      \hline
+      Normalize & True \\
+      \hline
+\end{tabular}
+ \caption{Transformations applied to the test images.}
+\end{table}
+\textbf{Data Augmentation} : Data augmentation techniques can help improve model performance by increasing the diversity of the training data and preventing overfitting.
+\newpage
+
+\begin{table}[H]
+\centering
+\begin{tabular}{ |c|c|c| }
+ \hline
+\textbf{Model}& Resnet50 & Efficientnet-b0\\
+\hline
+\textbf{Criterion}  & CrossEntropy& CrossEntropy\\
+\hline
+\textbf{Optimizer} & SGD & SGD \\
+\hline
+\textbf{epochs} & 10 & 10 \\
+\hline
+\textbf{Batch size} &16 & 8 \\
+\hline
+\textbf{Test accuracy} & 0.52785& 0.900 \\
+\hline
+\end{tabular}
+ \caption{Hyperparameters and test accuracy with the SGD optimizer.}
+\end{table}
+
+
+\begin{table}[H]
+\centering
+\begin{tabular}{ |c|c|c| }
+ \hline
+\textbf{Model}& Resnet50 & Efficientnet-b0\\
+\hline
+\textbf{Criterion}  & CrossEntropy& CrossEntropy\\
+\hline
+\textbf{Optimizer} & Adam & Adam\\
+\hline
+\textbf{epochs} & 10 & 10\\
+\hline
+\textbf{Batch size} & 16 & 8\\
+\hline
+\textbf{Test accuracy} &0.52785  &    0.622458\\
+\hline
+\end{tabular}
+ \caption{Hyperparameters and test accuracy with the Adam optimizer.}
+\end{table}
+Table 3 and Table 4 provide the results of the model training process for different models, criteria, optimizers, epochs, batch sizes, and test accuracies.
+Table 3 shows the results for the models trained using the SGD optimizer. The ResNet50 model achieved a test accuracy of 0.52785, while the EfficientNet-B0 model achieved a much higher test accuracy of 0.900.
+Table 4 presents the results for the models trained using the Adam optimizer. The ResNet50 model achieved a test accuracy of 0.52785, while the EfficientNet-B0 model achieved a test accuracy of 0.622458.\\
+
+\textbf{Model Performance}: The EfficientNet-B0 model consistently achieved higher test accuracies compared to ResNet50 in both optimizer settings (SGD and Adam). This suggests that EfficientNet-B0 may be a more suitable architecture for cassava leaf disease detection in this dataset.\\
+
+\textbf{Optimization Algorithms}: The results indicate that the choice of optimizer (SGD or Adam) had a major impact on the test accuracies. \\
+
+Therefore the results suggest that the EfficientNet-B0 model trained with SGD optimization achieved the highest test accuracy of 0.90. 
+
+\section{Conclusion}
+The EfficientNet-B0 model consistently achieved higher test accuracies compared to the ResNet50 model in both SGD and Adam optimizer settings. This suggests that the EfficientNet-B0 architecture is better suited for cassava leaf disease detection in the given dataset. The choice of the optimizer (SGD or Adam) was found to impact the test accuracies significantly.\\
+This research contributes to the field of cassava disease management by providing a reliable and accurate method for the early detection and identification of diseases, thereby assisting in the prevention and reduction of disease spread. The findings have implications for improving cassava production, supporting farmers in Africa, and minimizing economic losses caused by cassava leaf diseases.
+
+
+
+%\clearpage
+\begin{thebibliography}{9}
+\bibitem{mwebaze2019}
+Ernest Mwebaze, Timnit Gebru, Andrea Frome, Solomon Nsumba, Jeremy Tusubira, Chris Omongo (Dec 2019) \emph{Cassava 2019 Fine-Grained Visual Categorization Challenge }
+
+\bibitem{sambasivam}
+G. Sambasivam, Geoffrey Duncan Opiyo  \emph{A predictive machine learning application in agriculture: Cassava disease detection and classification with imbalanced dataset using convolutional
+neural networks }, {Egyptian Informatics Journal}
+
+\bibitem{surya}
+Rafi Surya  \emph{Cassava Leaf Disease Detection Using
+Convolutional Neural Networks }, {Egyptian Informatics Journal}
+\end{thebibliography}
+
+
+\end{multicols*}
+
+\end{document}
