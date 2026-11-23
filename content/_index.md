@@ -86,15 +86,10 @@ sections:
 
         ### 📜 Certificates
 
-        #### Data Science Workshop: From Theory to Practice
-        * **Institution:** African Institute for Mathematical Sciences (AIMS) Research Innovation Centre
-        * **Description:** Active participation and completion of the practical Data Science workshop focused on transitioning from theory to real-world applications.
-
-        ***
-
-        #### Participation in the national phase of the second edition of the CAMES Olympiad
-        * **Institution:** African and Malagasy Council for Higher Education (CAMES)
-        * **Description:** Participated in the national phase of the second edition of the CAMES University Olympiads, representing University Felix Houphouët-Boigny (UFHB).
+        #### PhD School — Data Science: From Theory to Practice
+        * **Institution:** AIMS Research and Innovation Centre (AIMS RIC)
+        * **Date:** April 15–19, 2024 (attended online)
+        * **Description:** Doctoral-level training school on data science methods, from theoretical foundations to real-world applications.
 
         ***
 
