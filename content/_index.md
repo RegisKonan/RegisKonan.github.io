@@ -59,7 +59,7 @@ sections:
 
         ### 🧠 Core Research Pillars
         * **Scientific Machine Learning (SciML):** Physics-informed neural networks (PINNs), neural operators (FNO, DeepONet), surrogate modeling for partial differential equations (PDEs), and computational fluid dynamics (CFD).
-        * **Deep Generative & Probabilistic Models:** Deep latent variable models, Variational Autoencoders (VAEs, $\beta$-VAEs), Bayesian deep learning, and representation learning.
+        * **Deep Generative & Probabilistic Models:** Deep latent variable models, Variational Autoencoders (VAEs, β-VAEs), Bayesian deep learning, and representation learning.
         * **Complex Dynamical Systems:** Multivariate time-series analysis, visibility graphs, and complex network theory.
 
         His current MSc work at UPV/EHU, including his Master's Thesis (TFM), focuses on Scientific Machine Learning.
