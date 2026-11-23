@@ -21,10 +21,31 @@ Fresh water makes up less than 3% of the water on Earth, and much of it is store
 
 Most classical salt-wedge results assume an **isotropic** medium, where permeability is the same in every direction. Real soils are often **anisotropic**. This thesis asks: **how does anisotropic permeability change the position and advance of the freshwater–saltwater interface?**
 
-## Approach
+## Model and method
 
-1. Review of porous-media fundamentals and known results for the salt-wedge model in the isotropic case.
-2. Numerical study of the advance of the salt wedge when permeability depends on direction.
+Groundwater flow in a 2D vertical section $(x, z)$ of an unconfined aquifer is modelled with a storage equation coupled with Darcy's law, plus transmission conditions at the freshwater–saltwater interface $\Sigma$:
+
+$$
+S\,\frac{\partial h}{\partial t} + \operatorname{div}(\mathbf{U}) = Q^A - Q^P,
+\qquad
+\mathbf{U} = -\mathbf{K}\,\nabla h ,
+$$
+
+where $h$ is the hydraulic head, $S$ the storage coefficient, and $Q^A$ and $Q^P$ the recharge and pumping rates. Anisotropy enters through the conductivity tensor
+
+$$
+\mathbf{K} = \begin{pmatrix} K_{xx} & 0 \\ 0 & K_{zz} \end{pmatrix}, \qquad K_{xx} = 10\,K_{zz},
+$$
+
+since horizontal permeability is typically larger than vertical permeability.
+
+The model was solved with the **finite element method in FreeFem++** on a 4 m × 2 m aquifer, simulated over **1,300 days** in two scenarios: **pumping without recharge** and **pumping with recharge**.
+
+## Results
+
+- **Without recharge:** the salt wedge advances strongly between days 500 and 700 and loses its oblique shape. From **day 1,000**, a cone of salt water rises towards the well (*upconing*). By day 1,300 it approaches the critical point beyond which the aquifer becomes unusable for drinking water.
+- **With recharge:** the wedge advances much more slowly, and the saltwater cone only appears at **day 1,300**, about **300 days later** than without recharge.
+- **Takeaway:** recharge (e.g. from rainfall) delays saltwater intrusion, but on its own it is only marginally sufficient to limit the risk under excessive pumping.
 
 ## Resources
 
