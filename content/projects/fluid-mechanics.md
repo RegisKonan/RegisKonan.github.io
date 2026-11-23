@@ -6,6 +6,10 @@ tags:
   - Porous Media
   - Numerical Simulation
 date: 2020-02-28
+image:
+  filename: project-saltwedge.jpg
+  caption: "Advance of the salt wedge under pumping without recharge (FreeFem++ simulation). Red: salt water, blue: fresh water."
+  focal_point: Center
 links:
   - icon: github
     icon_pack: fab

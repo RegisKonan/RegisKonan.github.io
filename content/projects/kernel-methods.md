@@ -6,6 +6,10 @@ tags:
   - Kernel Methods
   - Computational Biology
 date: 2024-12-22
+image:
+  filename: project-kernel-methods.jpg
+  caption: "Private leaderboard accuracy of each model."
+  focal_point: Center
 links:
   - icon: github
     icon_pack: fab
