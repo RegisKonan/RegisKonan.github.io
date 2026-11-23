@@ -78,7 +78,34 @@
 &lt;li&gt;💻
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;em&gt;Team &amp;ldquo;Overfitting&amp;rdquo;: Elie N. Mulamba and Regis Konan Marcel Djaha.&lt;/em&gt;&lt;/p&gt;</description></item><item><title>Darcy's Law in a 2D Porous Embankment</title><link>https://regiskonan.github.io/projects/aims-thesis/</link><pubDate>Tue, 28 Jun 2022 00:00:00 +0000</pubDate><guid>https://regiskonan.github.io/projects/aims-thesis/</guid><description>&lt;h2 id="motivation"&gt;Motivation&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;Team &amp;ldquo;Overfitting&amp;rdquo;: Elie N. Mulamba and Regis Konan Marcel Djaha.&lt;/em&gt;&lt;/p&gt;</description></item><item><title>Cassava Leaf Disease Classification with CNNs</title><link>https://regiskonan.github.io/projects/cassava/</link><pubDate>Fri, 30 Jun 2023 00:00:00 +0000</pubDate><guid>https://regiskonan.github.io/projects/cassava/</guid><description>&lt;h2 id="motivation"&gt;Motivation&lt;/h2&gt;
+&lt;p&gt;Cassava is a staple food for hundreds of millions of people in sub-Saharan Africa, and Africa produces about half of the world&amp;rsquo;s cassava. Viral and bacterial diseases cause major yield losses, so &lt;strong&gt;early, automatic detection from simple leaf photos&lt;/strong&gt; can help farmers act before the disease spreads.&lt;/p&gt;
+&lt;h2 id="the-challenge"&gt;The challenge&lt;/h2&gt;
+&lt;p&gt;This Kaggle competition was organised for the &lt;em&gt;Convolutional Neural Networks&lt;/em&gt; course at the African Master&amp;rsquo;s in Machine Intelligence (AMMI). The task: &lt;strong&gt;classify a cassava leaf image into one of 4 disease categories, or healthy&lt;/strong&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;9,436 labelled images&lt;/strong&gt;, collected from farmers in Uganda and annotated by experts from the National Crops Resources Research Institute (NaCRRI) with the Makerere University AI Lab.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;5 classes:&lt;/strong&gt; healthy, Cassava Bacterial Blight (CBB), Cassava Green Mottle (CGM), Cassava Mosaic Disease (CMD) and Cassava Brown Streak Disease (CBSD).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="what-we-did"&gt;What we did&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Data augmentation:&lt;/strong&gt; random rotations, random resized crops, horizontal flips and random erasing, to fight overfitting on a relatively small and imbalanced dataset.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Transfer learning&lt;/strong&gt; with two CNN architectures in PyTorch: &lt;strong&gt;ResNet-50&lt;/strong&gt; and &lt;strong&gt;EfficientNet-B0&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Optimiser comparison:&lt;/strong&gt; SGD vs Adam, with cross-entropy loss, plus model quantization for lighter inference.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="results"&gt;Results&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;🥉 &lt;strong&gt;3rd place&lt;/strong&gt; on the Kaggle leaderboard.&lt;/li&gt;
+&lt;li&gt;The best model, &lt;strong&gt;EfficientNet-B0 trained with SGD&lt;/strong&gt;, reached &lt;strong&gt;90% test accuracy&lt;/strong&gt;. ResNet-50 stayed far below in every setting.&lt;/li&gt;
+&lt;li&gt;The choice of optimiser had a major impact: the same architecture could gain or lose tens of accuracy points depending on SGD vs Adam.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="resources"&gt;Resources&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;📄
+&lt;/li&gt;
+&lt;li&gt;🏆
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;em&gt;Team: Elie Mulamba and Regis Konan Marcel Djaha, AMMI – AIMS Senegal.&lt;/em&gt;&lt;/p&gt;</description></item><item><title>Darcy's Law in a 2D Porous Embankment</title><link>https://regiskonan.github.io/projects/aims-thesis/</link><pubDate>Tue, 28 Jun 2022 00:00:00 +0000</pubDate><guid>https://regiskonan.github.io/projects/aims-thesis/</guid><description>&lt;h2 id="motivation"&gt;Motivation&lt;/h2&gt;
 &lt;p&gt;Embankments store and channel fresh water, but some water always seeps through them. Knowing &lt;strong&gt;how much&lt;/strong&gt; is key to balancing water conservation against flood risk.&lt;/p&gt;
 &lt;h2 id="model"&gt;Model&lt;/h2&gt;
 &lt;p&gt;Flow through the porous embankment is described by &lt;strong&gt;Darcy&amp;rsquo;s law&lt;/strong&gt;:&lt;/p&gt;
