@@ -104,6 +104,8 @@
 &lt;/li&gt;
 &lt;li&gt;🏆
 &lt;/li&gt;
+&lt;li&gt;💻
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;em&gt;Team: Elie Mulamba and Regis Konan Marcel Djaha, AMMI – AIMS Senegal.&lt;/em&gt;&lt;/p&gt;</description></item><item><title>Darcy's Law in a 2D Porous Embankment</title><link>https://regiskonan.github.io/projects/aims-thesis/</link><pubDate>Tue, 28 Jun 2022 00:00:00 +0000</pubDate><guid>https://regiskonan.github.io/projects/aims-thesis/</guid><description>&lt;h2 id="motivation"&gt;Motivation&lt;/h2&gt;
 &lt;p&gt;Embankments store and channel fresh water, but some water always seeps through them. Knowing &lt;strong&gt;how much&lt;/strong&gt; is key to balancing water conservation against flood risk.&lt;/p&gt;
@@ -152,7 +154,7 @@ $$&lt;p&gt;since horizontal permeability is typically larger than vertical perme
 &lt;h2 id="resources"&gt;Resources&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;📄
-: &lt;em&gt;Influence of the anisotropy of the medium&amp;rsquo;s permeability on advancing the freshwater–dirty water interface&lt;/em&gt;&lt;/li&gt;
+: &lt;em&gt;Influence of permeability anisotropy on the advance of the freshwater–saltwater interface&lt;/em&gt;&lt;/li&gt;
 &lt;li&gt;💻
 &lt;/li&gt;
 &lt;/ul&gt;
