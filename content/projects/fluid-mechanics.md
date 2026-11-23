@@ -53,7 +53,7 @@ The model was solved with the **finite element method in FreeFem++** on a 4 m ×
 
 ## Resources
 
-- 📄 [Full thesis (PDF, in French)](https://github.com/RegisKonan/UFHB_master_Fluid_mechanics/blob/main/Memoire_Djaha_Regis.pdf): *Influence of the anisotropy of the medium's permeability on advancing the freshwater–dirty water interface*
+- 📄 [Full thesis (PDF, in French)](https://github.com/RegisKonan/UFHB_master_Fluid_mechanics/blob/main/Memoire_Djaha_Regis.pdf): *Influence of permeability anisotropy on the advance of the freshwater–saltwater interface*
 - 💻 [Repository](https://github.com/RegisKonan/UFHB_master_Fluid_mechanics)
 
 *Master's in Mechanics and Energetics, Fluid and Interactive Phenomena track — Université Félix Houphouët-Boigny, Côte d'Ivoire.*

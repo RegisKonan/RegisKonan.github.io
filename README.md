@@ -33,7 +33,7 @@ Before that, I was a Research Technician in the Statistical Machine Learning gro
 | Project | Topic | Links |
 |---|---|---|
 | **Understanding Autoencoders & VAEs** | Effect of depth, latent dimension, prior and β on AEs/VAEs (MNIST, FashionMNIST, FreyFace) | [Code](https://github.com/RegisKonan/ae_vae_understanding) |
-| **Cassava Leaf Disease Classification** | ResNet-50 / EfficientNet-B0, 90% test accuracy, 3rd on Kaggle | [Report](https://github.com/RegisKonan/-Cassava_report) |
+| **Cassava Leaf Disease Classification** | ResNet-50 / EfficientNet-B0, 90% test accuracy, 3rd on Kaggle | [Report](https://regiskonan.github.io/uploads/cassava_report.pdf) |
 | **Kernel Methods for DNA Binding-Site Prediction** | SVMs and multiple spectrum kernels, 6th on the private leaderboard (67.0%) | [Report](https://github.com/RegisKonan/Kernel_Methods_report-) |
 | **Darcy's Law in a 2D Porous Embankment** | Seepage through horizontal, multilayer and inclined embankments (AIMS thesis) | [Thesis](https://github.com/RegisKonan/AIMS_master_embankment) |
 | **Saltwater Intrusion in Anisotropic Porous Media** | Finite element simulation (FreeFem++) of the salt wedge (UFHB thesis) | [Thesis](https://github.com/RegisKonan/UFHB_master_Fluid_mechanics) |

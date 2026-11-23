@@ -15,6 +15,8 @@ links:
     icon_pack: fab
     name: Code
     url: https://github.com/RegisKonan/-Cassava_report
+  - name: Report (PDF)
+    url: uploads/cassava_report.pdf
 ---
 
 ## Motivation
@@ -42,7 +44,8 @@ This Kaggle competition was organised for the *Convolutional Neural Networks* co
 
 ## Resources
 
-- 📄 [Project report (PDF)](https://github.com/RegisKonan/-Cassava_report/blob/main/Project_cassava2%20(1).pdf)
+- 📄 [Project report (PDF)](/uploads/cassava_report.pdf)
 - 🏆 [Kaggle competition](https://www.kaggle.com/competitions/ammi-2023-convnets)
+- 💻 [Repository](https://github.com/RegisKonan/-Cassava_report)
 
 *Team: Elie Mulamba and Regis Konan Marcel Djaha, AMMI – AIMS Senegal.*

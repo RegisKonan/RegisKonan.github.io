@@ -1,0 +1,178 @@
+\documentclass[times,5p, twocolumn]{elsarticle}
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath,amsthm,amssymb}
+\usepackage{graphicx}
+\usepackage{epstopdf}
+\epstopdfsetup{outdir=./}
+\usepackage[final]{pdfpages}
+\DeclareGraphicsExtensions{.eps}
+\usepackage{listings}
+\usepackage{color}
+\usepackage[figuresright]{rotating}
+\usepackage{indentfirst}
+\usepackage{parskip}
+\usepackage{pslatex}
+\usepackage{listings, color}
+\usepackage{color}
+\usepackage{xcolor}
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{dred}{rgb}{0.545,0,0}
+\definecolor{dblue}{rgb}{0,0,0.545}
+\definecolor{lgrey}{rgb}{0.9,0.9,0.9}
+\definecolor{gray}{rgb}{0.4,0.4,0.4}
+\definecolor{darkblue}{rgb}{0.0,0.0,0.6}
+\lstdefinelanguage{ListCpp}{
+	basicstyle=\footnotesize \ttfamily \color{black} \bfseries,   
+	breakatwhitespace=false,       
+	breaklines=true,               
+	captionpos=t,                   
+	commentstyle=\color{dkgreen},   
+	deletekeywords={...},          
+	escapeinside={\%*}{*)},                  
+	frame=single,                  
+	language=C++,                
+	keywordstyle=\color{orange},  
+	morekeywords={analogRead,analogWrite,getSpeed,getADC,MCP23S17,
+		MCP3208,AD8804,SpiMotorsV4,SPI,Expander32,MCP,Slave,setQEI,
+		begin,pinMode,digitalWrite,digitalRead,Serial,loop,setup,print,println}, 
+	identifierstyle=\color{black},
+	stringstyle=\color{blue},      
+	numbers=left,                 
+	numbersep=5pt,                  
+	numberstyle=\tiny\color{black}, 
+	rulecolor=\color{black},        
+	showspaces=false,               
+	showstringspaces=false,        
+	showtabs=false,                
+	stepnumber=1,                   
+	tabsize=5,                     
+	title=\lstname,                 
+}
+
+\begin{document}
+\begin{frontmatter}
+\title{Kernel Methods Challenge:\\ Predicting Transcription Factor Binding Sites in DNA Sequences}
+
+\author{Elie N. Mulamba\corref{cor1}}
+\ead{emulamba@aimsammi.org}
+
+% Si necesita especificar una URL para el autor, consulte 'ejemplo latex RIAI.tex'
+% \ead[url]{www.autor1.es}
+
+\author{Regis Konan Marcel Djaha\corref{cor1}}
+\ead{rkmdjaha@aimsammi.org}
+
+\address{African Master's in Machine Intelligence (AMMI), AIMS Senegal}
+
+
+\cortext[cor1]{Team ``Overfitting''. Both authors contributed equally.}
+
+\begin{abstract}
+This data challenge was the final project of the Kernel Methods course at the African Master's in Machine Intelligence (AMMI). Our objective was to implement machine learning algorithms ourselves and adapt them to structured data, specifically DNA sequences. In this report, we describe our approach to the Kaggle-hosted challenge, in which the task was to predict whether DNA sequence regions bind to specific transcription factors. Our best model, a multiple kernel learning approach combining spectrum kernels, ranked 6th on the private leaderboard with an accuracy of 67.00\%. These results illustrate the value of sequence kernels for classification problems in genomics.
+
+\end{abstract}
+\begin{keyword}
+kernel methods \sep support vector machines \sep spectrum kernel \sep multiple kernel learning \sep DNA sequence classification
+\end{keyword}
+\end{frontmatter}
+
+%%%%%%%%%%%%%%%%%%%%%%  Practice's report body  %%%%%%%%%%%%%%%%%%%%%%
+\section{Introduction}
+\noindent
+Transcription factors play a critical role in regulating gene expression by binding to specific sequences in the genome. These binding events can either activate or repress the transcription of target genes. To study these interactions, experimental techniques are used to create genome-wide protein-DNA binding maps. These maps help classify the entire genome into two classes: bound or unbound, based on the presence or absence of the TF of interest.
+
+The information obtained from these binding maps is crucial for understanding the regulatory mechanisms underlying gene expression. By identifying the specific genomic regions where a TF binds, researchers can gain insights into the genes and pathways that are regulated by that TF. This knowledge can further aid in understanding various biological processes and diseases.
+
+\section{Objectives}
+The main objective is to build separate predictive models for each dataset using the training data and labels, and then predict the labels for the test sequences.
+\section{Data description}
+
+The challenge provides three distinct datasets ($k = 0, 1, 2$), each containing training sequences with binary labels (bound or unbound). For each dataset, the file \texttt{Xtrk.csv} contains 2,000 training sequences (one per row), and \texttt{Xtek.csv} contains 1,000 test sequences, with IDs starting at $1000k$.
+
+\section{Experiments}
+\subsection{Algorithms}
+\begin{itemize}
+    \item \textbf{Hard-margin SVM:} we first applied the hard-margin SVM algorithm presented in class. It reached 54.61\% on both the public and the private leaderboards.
+    \item \textbf{Soft-margin SVM:} the soft-margin version obtained 53.73\% on the public leaderboard and 55.46\% on the private leaderboard.
+\end{itemize}
+As these baseline results were close to random guessing, we turned to kernel methods better suited to sequence data.
+\subsection{Kernels}
+During our experimentation, we explored various kernels, most of which were the ones introduced during our class. The methods we tested are described below.
+\begin{itemize}
+    \item \textbf{Kernel Logistic Regression (KLR):} the main hyperparameters were the kernel type (linear, polynomial or Gaussian RBF), the bandwidth $\sigma$, the regularization parameter $\lambda$ and the polynomial degree. KLR obtained 53.46\% on the public leaderboard and 53.73\% on the private leaderboard.
+    \item \textbf{Kernel Ridge Regression (KRR):} KRR performed much better than the baselines, with 63.80\% on the public leaderboard and 62.90\% on the private leaderboard.
+    \item \textbf{Multiple spectrum kernels (MKL):} a combination of spectrum kernels, which compare sequences through their shared $k$-mers, with a mismatch penalty. This approach obtained 68.13\% on the public leaderboard and 67.00\% on the private leaderboard.
+\end{itemize}
+We also explored Gaussian, string and mismatch kernels on their own, but could not obtain results with them within the time of the challenge; in particular, the string mismatch kernel is very computationally intensive.
+
+Our final approach focuses on binary classification of sequential data using support vector machines (SVM) with multiple spectrum kernels. The k-spectrum kernel, considering all possible k-mers in sequences, was tested on both numerical representations and the original sequences, achieving up to 67\% accuracy. The SVM maps input sequences into a high-dimensional vector space, finding a linear decision boundary to classify them as positive or negative. By combining three $k$-spectrum kernels with different values of $k$ (12, 13 and 15) into mismatch kernels and optimizing their weights, we capture information about sub-strings of various lengths, which proved more effective than using sub-strings of a single length. This approach presents a promising option for binary classification of sequential data and enhances the predictive capability of the model.
+
+
+\section{Results and discussion}
+% In our quest for finding the right pre- processing and algorithms that met the needs of our task, a couple of these meth- ods were attempted starting from the use of a simple logistic regression model which proved to be not too useful for the nature of the data as visualized 
+
+Our objective was to predict whether a DNA sequence region is a binding site for a specific transcription factor. The simple strategies we tried first helped us gain a better understanding of the problem.
+
+Table~\ref{tab:table1} summarizes the results of our experiments.
+
+
+%...
+\begin{table}[h!]
+  \begin{center}
+    \caption{Public and private leaderboard accuracy of each model.}
+    \label{tab:table1}
+    \begin{tabular}{l|c|c}
+      \textbf{Model} & \textbf{Public score (\%)} & \textbf{Private score (\%)}\\
+      % $\alpha$ & $\beta$ & $\gamma$ \\
+      \hline
+      Hard-margin SVM & 54.61 & 54.61\\
+      Soft-margin SVM & 53.73 & 55.46\\
+      KLR & 53.46 & 53.73\\
+      KRR & 63.80 & 62.90\\
+      \textbf{MKL }& \textbf{68.13} & \textbf{67.00}\\
+    \end{tabular}
+  \end{center}
+\end{table}
+%...
+
+Our best private score was achieved by implementing multiple kernel learning (MKL) using a simple gradient descent approach. It iteratively optimizes the kernel weights to combine different kernels for better performance.
+
+
+%To find the best parameters that can improve our result, we did hyper-parameter search for all the algorithm we tried. This help to improve a bit our performance. We used Optuna, an open source hyper-parameter optimization framework for this task. We also did cross validation for hyper-parameter turning and make sure our model is not over fitting to much.
+
+\section{Conclusion}
+
+The performance of the kernel SVM with multiple spectrum on our dataset in this challenge presents the classifier as a promising algorithm that is effective in predicting whether a DNA sequence region is a binding site for a specific transcription factor or not. Our final result was an accuracy of 67.00\% in the private leaderboard, a clear improvement over all single-kernel models.
+
+One of the significant advantages of using multiple spectrum kernels is their ability to capture different features and patterns present in the DNA sequences. By combining the k-spectrum and (k, m)-mismatch embeddings, we leverage the strengths of both representations, leading to a more robust and expressive model.
+
+For future work beyond the challenge, we propose to conduct extensive hyperparameter tuning to further improve the performance of the model. Additionally, we will explore other strategies, such as nested cross-validation, to ensure the robustness of our hyperparameter selection process.
+
+In conclusion, the kernel SVM with multiple spectrum has demonstrated promising results in this DNA sequence binding site prediction challenge. With further optimization and fine-tuning of hyperparameters, we believe this approach can achieve even better accuracy and generalization to new data, making it a valuable tool in computational biology and genomics research.
+%The performance of the kernel SVM with multiple spectrum on our dataset in this challenge presents the classifier as a promising algorithm that is effective in predicting whether a DNA sequence region is binding site to a specific transcription factor or not. Our final result was an accuracy of 69.80\% in the public leaderboard. It is possible that we could have achieved a better score if we had per- formed thorough hyper-parameter search on a wide range of k. We look forward to this in the future even after the challenge.
+
+% \section{Elementos auxiliares del reporte}
+% \input{./imagenes.tex}
+% \input{./tablas.tex}
+% \input{./ecuaciones.tex}
+
+
+% \subsection{Código}
+% Para ingresar código al reporte solo es necesario copiar y pegar el código dentro de un lstlisting con el lenguaje Cpp:
+
+% \begin{lstlisting}[language=ListCpp,
+% caption={Código \LaTeX para insertar código en C/C++},
+% label = {codigo_1}]
+
+% aqui va el codigo
+
+% \end{lstlisting}
+
+%In order to improve the performance of the model we are looking forward to reconsider the vectorization process using the mismatch kernel, and also tune more the hyperparameters.
+\renewcommand{\bibname}{References}
+\nocite{*}
+\bibliographystyle{plainnat}
+\bibliography{reporte}
+\addcontentsline{toc}{chapter}{References}
+\end{document} 
