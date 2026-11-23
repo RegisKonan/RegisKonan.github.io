@@ -1,4 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Projects | Regis Konan Marcel Djaha | M.Sc. Candidate in Computational Engineering and Intelligent Systems</title><link>https://regiskonan.github.io/projects/</link><atom:link href="https://regiskonan.github.io/projects/index.xml" rel="self" type="application/rss+xml"/><description>Projects</description><generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 19 May 2024 00:00:00 +0000</lastBuildDate><image><url>https://regiskonan.github.io/media/icon_hu_17bb65482e63706a.png</url><title>Projects</title><link>https://regiskonan.github.io/projects/</link></image><item><title>Kernel Methods for DNA Binding-Site Prediction</title><link>https://regiskonan.github.io/projects/kernel-methods/</link><pubDate>Sun, 22 Dec 2024 00:00:00 +0000</pubDate><guid>https://regiskonan.github.io/projects/kernel-methods/</guid><description>&lt;h2 id="the-challenge"&gt;The challenge&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Projects | Regis Konan Marcel Djaha | M.Sc. Candidate in Computational Engineering and Intelligent Systems</title><link>https://regiskonan.github.io/projects/</link><atom:link href="https://regiskonan.github.io/projects/index.xml" rel="self" type="application/rss+xml"/><description>Projects</description><generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 19 May 2024 00:00:00 +0000</lastBuildDate><image><url>https://regiskonan.github.io/media/icon_hu_17bb65482e63706a.png</url><title>Projects</title><link>https://regiskonan.github.io/projects/</link></image><item><title>Understanding Autoencoders &amp; Variational Autoencoders</title><link>https://regiskonan.github.io/projects/ae-vae/</link><pubDate>Wed, 31 Jul 2024 00:00:00 +0000</pubDate><guid>https://regiskonan.github.io/projects/ae-vae/</guid><description>&lt;h2 id="motivation"&gt;Motivation&lt;/h2&gt;
+&lt;p&gt;Autoencoders (AEs) and Variational Autoencoders (VAEs) are widely used for compression, representation learning and generation, yet the effect of their main design choices is often left to trial and error. This project asks a simple question: &lt;strong&gt;how do architecture and probabilistic assumptions change what these models learn?&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id="what-i-did"&gt;What I did&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Implemented &lt;strong&gt;AE&lt;/strong&gt;, &lt;strong&gt;VAE&lt;/strong&gt;, &lt;strong&gt;VAE with a mean-conditional Gaussian prior&lt;/strong&gt; and &lt;strong&gt;β-VAE&lt;/strong&gt; models in a single, configurable PyTorch codebase.&lt;/li&gt;
+&lt;li&gt;Ran controlled experiments on three datasets: &lt;strong&gt;MNIST&lt;/strong&gt;, &lt;strong&gt;FashionMNIST&lt;/strong&gt; and &lt;strong&gt;FreyFace&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Depth sweep:&lt;/strong&gt; fixed latent dimension $D_z$, varying the number of layers $n_L$.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Latent-dimension sweep:&lt;/strong&gt; fixed depth, varying $D_z$.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Prior study:&lt;/strong&gt; replaced the standard Gaussian prior with a mean-conditional Gaussian prior.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;β-VAE study:&lt;/strong&gt; varied $\beta \in \{0.02,\ 1,\ 1.5,\ 10\}$ to explore the trade-off between reconstruction quality and latent regularisation.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="outputs"&gt;Outputs&lt;/h2&gt;
+&lt;p&gt;For each configuration, the pipeline produces evaluation metrics, latent-space visualisations, original vs. reconstructed samples, and parameter counts, making it easy to compare models side by side.&lt;/p&gt;
+&lt;h2 id="resources"&gt;Resources&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;💻
+&lt;/li&gt;
+&lt;li&gt;📄
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;em&gt;Work carried out with Iñigo Urteaga at the Basque Center for Applied Mathematics (BCAM), supported by the &amp;ldquo;la Caixa&amp;rdquo; Junior Leader programme.&lt;/em&gt;&lt;/p&gt;</description></item><item><title>Kernel Methods for DNA Binding-Site Prediction</title><link>https://regiskonan.github.io/projects/kernel-methods/</link><pubDate>Sun, 30 Jul 2023 00:00:00 +0000</pubDate><guid>https://regiskonan.github.io/projects/kernel-methods/</guid><description>&lt;h2 id="the-challenge"&gt;The challenge&lt;/h2&gt;
 &lt;p&gt;Transcription factors (TFs) regulate gene expression by binding to specific regions of the genome. In this Kaggle data challenge, the final project of the &lt;em&gt;Kernel Methods&lt;/em&gt; course at the African Master&amp;rsquo;s in Machine Intelligence (AMMI), the task was to &lt;strong&gt;predict whether a DNA sequence region is a binding site for a given TF&lt;/strong&gt;.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;3 datasets, each with 2,000 labelled training sequences and 1,000 test sequences.&lt;/li&gt;
@@ -58,27 +78,7 @@
 &lt;li&gt;💻
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;em&gt;Team &amp;ldquo;Overfitting&amp;rdquo;: Elie N. Mulamba and Regis Konan Marcel Djaha.&lt;/em&gt;&lt;/p&gt;</description></item><item><title>Understanding Autoencoders &amp; Variational Autoencoders</title><link>https://regiskonan.github.io/projects/ae-vae/</link><pubDate>Wed, 31 Jul 2024 00:00:00 +0000</pubDate><guid>https://regiskonan.github.io/projects/ae-vae/</guid><description>&lt;h2 id="motivation"&gt;Motivation&lt;/h2&gt;
-&lt;p&gt;Autoencoders (AEs) and Variational Autoencoders (VAEs) are widely used for compression, representation learning and generation, yet the effect of their main design choices is often left to trial and error. This project asks a simple question: &lt;strong&gt;how do architecture and probabilistic assumptions change what these models learn?&lt;/strong&gt;&lt;/p&gt;
-&lt;h2 id="what-i-did"&gt;What I did&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Implemented &lt;strong&gt;AE&lt;/strong&gt;, &lt;strong&gt;VAE&lt;/strong&gt;, &lt;strong&gt;VAE with a mean-conditional Gaussian prior&lt;/strong&gt; and &lt;strong&gt;β-VAE&lt;/strong&gt; models in a single, configurable PyTorch codebase.&lt;/li&gt;
-&lt;li&gt;Ran controlled experiments on three datasets: &lt;strong&gt;MNIST&lt;/strong&gt;, &lt;strong&gt;FashionMNIST&lt;/strong&gt; and &lt;strong&gt;FreyFace&lt;/strong&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Depth sweep:&lt;/strong&gt; fixed latent dimension $D_z$, varying the number of layers $n_L$.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Latent-dimension sweep:&lt;/strong&gt; fixed depth, varying $D_z$.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Prior study:&lt;/strong&gt; replaced the standard Gaussian prior with a mean-conditional Gaussian prior.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;β-VAE study:&lt;/strong&gt; varied $\beta \in \{0.02,\ 1,\ 1.5,\ 10\}$ to explore the trade-off between reconstruction quality and latent regularisation.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="outputs"&gt;Outputs&lt;/h2&gt;
-&lt;p&gt;For each configuration, the pipeline produces evaluation metrics, latent-space visualisations, original vs. reconstructed samples, and parameter counts, making it easy to compare models side by side.&lt;/p&gt;
-&lt;h2 id="resources"&gt;Resources&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;💻
-&lt;/li&gt;
-&lt;li&gt;📄
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;em&gt;Work carried out with Iñigo Urteaga at the Basque Center for Applied Mathematics (BCAM), supported by the &amp;ldquo;la Caixa&amp;rdquo; Junior Leader programme.&lt;/em&gt;&lt;/p&gt;</description></item><item><title>Darcy's Law in a 2D Porous Embankment</title><link>https://regiskonan.github.io/projects/aims-thesis/</link><pubDate>Tue, 28 Jun 2022 00:00:00 +0000</pubDate><guid>https://regiskonan.github.io/projects/aims-thesis/</guid><description>&lt;h2 id="motivation"&gt;Motivation&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;Team &amp;ldquo;Overfitting&amp;rdquo;: Elie N. Mulamba and Regis Konan Marcel Djaha.&lt;/em&gt;&lt;/p&gt;</description></item><item><title>Darcy's Law in a 2D Porous Embankment</title><link>https://regiskonan.github.io/projects/aims-thesis/</link><pubDate>Tue, 28 Jun 2022 00:00:00 +0000</pubDate><guid>https://regiskonan.github.io/projects/aims-thesis/</guid><description>&lt;h2 id="motivation"&gt;Motivation&lt;/h2&gt;
 &lt;p&gt;Embankments store and channel fresh water, but some water always seeps through them. Knowing &lt;strong&gt;how much&lt;/strong&gt; is key to balancing water conservation against flood risk.&lt;/p&gt;
 &lt;h2 id="model"&gt;Model&lt;/h2&gt;
 &lt;p&gt;Flow through the porous embankment is described by &lt;strong&gt;Darcy&amp;rsquo;s law&lt;/strong&gt;:&lt;/p&gt;
