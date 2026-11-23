@@ -63,8 +63,8 @@ sections:
       title: '🏆 Awards & Scholarships'
       subtitle: 'Research grants and academic scholarships'
       text: |-
-        * **Research Technician Grant in Statistical Machine Learning** (2023)  
-          Funded by La Caixa Junior Leader — Basque Center for Applied Mathematics (BCAM), Bilbao, Spain.
+        * **Research Technician Position in Statistical Machine Learning** (2023)  
+          Selected through a competitive call (IC2023_03) — Basque Center for Applied Mathematics (BCAM), Bilbao, Spain. Position funded by a "la Caixa" Junior Leader fellowship project.
         
         * **Research Grant in Mathematical Sciences** (2023)  
           Mfano Africa – Oxford Virtual Mentorship Programme — Oxford, United Kingdom.

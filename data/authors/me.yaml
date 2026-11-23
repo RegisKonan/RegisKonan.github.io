@@ -11,9 +11,9 @@ name:
   pronouns: he/him
 postnominals:
   - MSc
-role: Machine Learning & Intelligent Systems Researcher
+role: Scientific Machine Learning · Probabilistic Deep Learning
 bio: |
-  Data Scientist specializing in Artificial Intelligence and Machine Learning, with a strong background in generative modeling (VAEs), complex networks, and fluid mechanics.
+  AI researcher working at the intersection of applied mathematics, deep probabilistic modeling, and scientific machine learning. MSc student at UPV/EHU, seeking a PhD position (2027).
 
 affiliations:
   - name: University of the Basque Country
@@ -30,14 +30,19 @@ links:
   - icon: academicons/orcid
     url: https://orcid.org/0009-0004-5252-759X
 
-interests: [] 
+interests:
+  - Scientific Machine Learning (PINNs, Neural Operators)
+  - Deep Generative & Probabilistic Models
+  - Bayesian Deep Learning & Uncertainty Quantification
+  - Numerical Methods for PDEs & CFD
+  - Complex Networks & Time Series
 education:
   - degree: MSc in Computational Engineering and Intelligent Systems
     institution: University of the Basque Country (UPV/EHU)
     start: 2026-09-07
     end: 2027-06-30
-  - degree: MSc in Mathematical Science - Machine Intelligence
-    institution: African Institute for Mathematical Sciences (AIMS-AMMI)
+  - degree: African Master's in Machine Intelligence (AMMI)
+    institution: African Institute for Mathematical Sciences (AIMS Senegal)
     start: 2023-02-06
     end: 2024-07-31
     summary: |
@@ -113,14 +118,14 @@ languages:
     label: Currently studying
 
 awards:
-  - title: Research Technician Contract (IC2023_03)
-    awarder: Basque Center for Applied Mathematics / La Caixa Junior Leader
+  - title: Research Technician Position (competitive call IC2023_03)
+    awarder: Basque Center for Applied Mathematics (BCAM)
     date: "2023-09-27"
-    summary: €19,188 grant in Statistical Machine Learning.
+    summary: Selected as Research Technician in Statistical Machine Learning, within a project funded by a "la Caixa" Junior Leader fellowship.
   - title: Research Grant
     awarder: Mfano Africa - Oxford Virtual Mentorship Programme
     date: "2023-07-10"
-    summary: £230 funding.
+    summary: Research funding for a mentored project with Oxford Mathematics.
   - title: Full Master's Scholarship (AMMI)
     awarder: Facebook and Google
     date: "2023-01-25"
@@ -128,5 +133,5 @@ awards:
   - title: Full Master's Scholarship (AIMS)
     awarder: African Institute for Mathematical Sciences (AIMS Rwanda)
     date: "2021-08-30"
-    summary: $25,000 scholarship (Kigali, Rwanda).
+    summary: Fully funded MSc in Mathematical Sciences (Kigali, Rwanda).
 ---
