@@ -25,11 +25,23 @@ $$&lt;p&gt;with $\nu$ the kinematic viscosity. The analysis is then extended to 
 &lt;p&gt;Fresh water makes up less than 3% of the water on Earth, and much of it is stored underground. In coastal aquifers, salt water can push into fresh groundwater, forming a &lt;strong&gt;salt wedge&lt;/strong&gt; that threatens drinking-water supplies.&lt;/p&gt;
 &lt;h2 id="question"&gt;Question&lt;/h2&gt;
 &lt;p&gt;Most classical salt-wedge results assume an &lt;strong&gt;isotropic&lt;/strong&gt; medium, where permeability is the same in every direction. Real soils are often &lt;strong&gt;anisotropic&lt;/strong&gt;. This thesis asks: &lt;strong&gt;how does anisotropic permeability change the position and advance of the freshwater–saltwater interface?&lt;/strong&gt;&lt;/p&gt;
-&lt;h2 id="approach"&gt;Approach&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;Review of porous-media fundamentals and known results for the salt-wedge model in the isotropic case.&lt;/li&gt;
-&lt;li&gt;Numerical study of the advance of the salt wedge when permeability depends on direction.&lt;/li&gt;
-&lt;/ol&gt;
+&lt;h2 id="model-and-method"&gt;Model and method&lt;/h2&gt;
+&lt;p&gt;Groundwater flow in a 2D vertical section $(x, z)$ of an unconfined aquifer is modelled with a storage equation coupled with Darcy&amp;rsquo;s law, plus transmission conditions at the freshwater–saltwater interface $\Sigma$:&lt;/p&gt;
+$$
+S\,\frac{\partial h}{\partial t} + \operatorname{div}(\mathbf{U}) = Q^A - Q^P,
+\qquad
+\mathbf{U} = -\mathbf{K}\,\nabla h ,
+$$&lt;p&gt;where $h$ is the hydraulic head, $S$ the storage coefficient, and $Q^A$ and $Q^P$ the recharge and pumping rates. Anisotropy enters through the conductivity tensor&lt;/p&gt;
+$$
+\mathbf{K} = \begin{pmatrix} K_{xx} &amp; 0 \\ 0 &amp; K_{zz} \end{pmatrix}, \qquad K_{xx} = 10\,K_{zz},
+$$&lt;p&gt;since horizontal permeability is typically larger than vertical permeability.&lt;/p&gt;
+&lt;p&gt;The model was solved with the &lt;strong&gt;finite element method in FreeFem++&lt;/strong&gt; on a 4 m × 2 m aquifer, simulated over &lt;strong&gt;1,300 days&lt;/strong&gt; in two scenarios: &lt;strong&gt;pumping without recharge&lt;/strong&gt; and &lt;strong&gt;pumping with recharge&lt;/strong&gt;.&lt;/p&gt;
+&lt;h2 id="results"&gt;Results&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Without recharge:&lt;/strong&gt; the salt wedge advances strongly between days 500 and 700 and loses its oblique shape. From &lt;strong&gt;day 1,000&lt;/strong&gt;, a cone of salt water rises towards the well (&lt;em&gt;upconing&lt;/em&gt;). By day 1,300 it approaches the critical point beyond which the aquifer becomes unusable for drinking water.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;With recharge:&lt;/strong&gt; the wedge advances much more slowly, and the saltwater cone only appears at &lt;strong&gt;day 1,300&lt;/strong&gt;, about &lt;strong&gt;300 days later&lt;/strong&gt; than without recharge.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Takeaway:&lt;/strong&gt; recharge (e.g. from rainfall) delays saltwater intrusion, but on its own it is only marginally sufficient to limit the risk under excessive pumping.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2 id="resources"&gt;Resources&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;📄

@@ -1,4 +1,64 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Projects | Regis Konan Marcel Djaha | M.Sc. Candidate in Computational Engineering and Intelligent Systems</title><link>https://regiskonan.github.io/projects/</link><atom:link href="https://regiskonan.github.io/projects/index.xml" rel="self" type="application/rss+xml"/><description>Projects</description><generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 19 May 2024 00:00:00 +0000</lastBuildDate><image><url>https://regiskonan.github.io/media/icon_hu_17bb65482e63706a.png</url><title>Projects</title><link>https://regiskonan.github.io/projects/</link></image><item><title>Kernel Methods &amp; Statistical Learning</title><link>https://regiskonan.github.io/projects/kernel-methods/</link><pubDate>Sun, 22 Dec 2024 00:00:00 +0000</pubDate><guid>https://regiskonan.github.io/projects/kernel-methods/</guid><description/></item><item><title>Understanding Autoencoders &amp; Variational Autoencoders</title><link>https://regiskonan.github.io/projects/ae-vae/</link><pubDate>Wed, 31 Jul 2024 00:00:00 +0000</pubDate><guid>https://regiskonan.github.io/projects/ae-vae/</guid><description>&lt;h2 id="motivation"&gt;Motivation&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Projects | Regis Konan Marcel Djaha | M.Sc. Candidate in Computational Engineering and Intelligent Systems</title><link>https://regiskonan.github.io/projects/</link><atom:link href="https://regiskonan.github.io/projects/index.xml" rel="self" type="application/rss+xml"/><description>Projects</description><generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 19 May 2024 00:00:00 +0000</lastBuildDate><image><url>https://regiskonan.github.io/media/icon_hu_17bb65482e63706a.png</url><title>Projects</title><link>https://regiskonan.github.io/projects/</link></image><item><title>Kernel Methods for DNA Binding-Site Prediction</title><link>https://regiskonan.github.io/projects/kernel-methods/</link><pubDate>Sun, 22 Dec 2024 00:00:00 +0000</pubDate><guid>https://regiskonan.github.io/projects/kernel-methods/</guid><description>&lt;h2 id="the-challenge"&gt;The challenge&lt;/h2&gt;
+&lt;p&gt;Transcription factors (TFs) regulate gene expression by binding to specific regions of the genome. In this Kaggle data challenge, the final project of the &lt;em&gt;Kernel Methods&lt;/em&gt; course at the African Master&amp;rsquo;s in Machine Intelligence (AMMI), the task was to &lt;strong&gt;predict whether a DNA sequence region is a binding site for a given TF&lt;/strong&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;3 datasets, each with 2,000 labelled training sequences and 1,000 test sequences.&lt;/li&gt;
+&lt;li&gt;One binary classifier per dataset.&lt;/li&gt;
+&lt;li&gt;Goal of the course project: implement the algorithms ourselves and adapt them to structured (sequence) data.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="what-we-did"&gt;What we did&lt;/h2&gt;
+&lt;p&gt;We started with standard baselines, then moved to kernels designed for sequence data:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Hard- and soft-margin SVMs&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Kernel Logistic Regression&lt;/strong&gt; and &lt;strong&gt;Kernel Ridge Regression&lt;/strong&gt; with linear, polynomial and RBF kernels&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Spectrum and mismatch kernels&lt;/strong&gt;, which compare sequences through their shared &lt;em&gt;k&lt;/em&gt;-mers&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Multiple Kernel Learning (MKL):&lt;/strong&gt; a combination of k-spectrum kernels with &lt;em&gt;k&lt;/em&gt; = 12, 13 and 15, with kernel weights optimised by gradient descent so that the model captures substrings of several lengths at once&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="results"&gt;Results&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Model&lt;/th&gt;
+&lt;th&gt;Public score&lt;/th&gt;
+&lt;th&gt;Private score&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Hard-margin SVM&lt;/td&gt;
+&lt;td&gt;54.61%&lt;/td&gt;
+&lt;td&gt;54.61%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Soft-margin SVM&lt;/td&gt;
+&lt;td&gt;53.73%&lt;/td&gt;
+&lt;td&gt;55.46%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Kernel Logistic Regression&lt;/td&gt;
+&lt;td&gt;53.46%&lt;/td&gt;
+&lt;td&gt;53.73%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Kernel Ridge Regression&lt;/td&gt;
+&lt;td&gt;63.80%&lt;/td&gt;
+&lt;td&gt;62.90%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Multiple spectrum kernels (MKL)&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;68.13%&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;67.00%&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Our best model, MKL with spectrum kernels, finished &lt;strong&gt;6th on the private leaderboard&lt;/strong&gt;. Combining substrings of different lengths proved clearly more effective than any single kernel.&lt;/p&gt;
+&lt;h2 id="resources"&gt;Resources&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;📄
+&lt;/li&gt;
+&lt;li&gt;💻
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;em&gt;Team &amp;ldquo;Overfitting&amp;rdquo;: Elie N. Mulamba and Regis Konan Marcel Djaha.&lt;/em&gt;&lt;/p&gt;</description></item><item><title>Understanding Autoencoders &amp; Variational Autoencoders</title><link>https://regiskonan.github.io/projects/ae-vae/</link><pubDate>Wed, 31 Jul 2024 00:00:00 +0000</pubDate><guid>https://regiskonan.github.io/projects/ae-vae/</guid><description>&lt;h2 id="motivation"&gt;Motivation&lt;/h2&gt;
 &lt;p&gt;Autoencoders (AEs) and Variational Autoencoders (VAEs) are widely used for compression, representation learning and generation, yet the effect of their main design choices is often left to trial and error. This project asks a simple question: &lt;strong&gt;how do architecture and probabilistic assumptions change what these models learn?&lt;/strong&gt;&lt;/p&gt;
 &lt;h2 id="what-i-did"&gt;What I did&lt;/h2&gt;
 &lt;ul&gt;
@@ -45,11 +105,23 @@ $$&lt;p&gt;with $\nu$ the kinematic viscosity. The analysis is then extended to 
 &lt;p&gt;Fresh water makes up less than 3% of the water on Earth, and much of it is stored underground. In coastal aquifers, salt water can push into fresh groundwater, forming a &lt;strong&gt;salt wedge&lt;/strong&gt; that threatens drinking-water supplies.&lt;/p&gt;
 &lt;h2 id="question"&gt;Question&lt;/h2&gt;
 &lt;p&gt;Most classical salt-wedge results assume an &lt;strong&gt;isotropic&lt;/strong&gt; medium, where permeability is the same in every direction. Real soils are often &lt;strong&gt;anisotropic&lt;/strong&gt;. This thesis asks: &lt;strong&gt;how does anisotropic permeability change the position and advance of the freshwater–saltwater interface?&lt;/strong&gt;&lt;/p&gt;
-&lt;h2 id="approach"&gt;Approach&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;Review of porous-media fundamentals and known results for the salt-wedge model in the isotropic case.&lt;/li&gt;
-&lt;li&gt;Numerical study of the advance of the salt wedge when permeability depends on direction.&lt;/li&gt;
-&lt;/ol&gt;
+&lt;h2 id="model-and-method"&gt;Model and method&lt;/h2&gt;
+&lt;p&gt;Groundwater flow in a 2D vertical section $(x, z)$ of an unconfined aquifer is modelled with a storage equation coupled with Darcy&amp;rsquo;s law, plus transmission conditions at the freshwater–saltwater interface $\Sigma$:&lt;/p&gt;
+$$
+S\,\frac{\partial h}{\partial t} + \operatorname{div}(\mathbf{U}) = Q^A - Q^P,
+\qquad
+\mathbf{U} = -\mathbf{K}\,\nabla h ,
+$$&lt;p&gt;where $h$ is the hydraulic head, $S$ the storage coefficient, and $Q^A$ and $Q^P$ the recharge and pumping rates. Anisotropy enters through the conductivity tensor&lt;/p&gt;
+$$
+\mathbf{K} = \begin{pmatrix} K_{xx} &amp; 0 \\ 0 &amp; K_{zz} \end{pmatrix}, \qquad K_{xx} = 10\,K_{zz},
+$$&lt;p&gt;since horizontal permeability is typically larger than vertical permeability.&lt;/p&gt;
+&lt;p&gt;The model was solved with the &lt;strong&gt;finite element method in FreeFem++&lt;/strong&gt; on a 4 m × 2 m aquifer, simulated over &lt;strong&gt;1,300 days&lt;/strong&gt; in two scenarios: &lt;strong&gt;pumping without recharge&lt;/strong&gt; and &lt;strong&gt;pumping with recharge&lt;/strong&gt;.&lt;/p&gt;
+&lt;h2 id="results"&gt;Results&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Without recharge:&lt;/strong&gt; the salt wedge advances strongly between days 500 and 700 and loses its oblique shape. From &lt;strong&gt;day 1,000&lt;/strong&gt;, a cone of salt water rises towards the well (&lt;em&gt;upconing&lt;/em&gt;). By day 1,300 it approaches the critical point beyond which the aquifer becomes unusable for drinking water.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;With recharge:&lt;/strong&gt; the wedge advances much more slowly, and the saltwater cone only appears at &lt;strong&gt;day 1,300&lt;/strong&gt;, about &lt;strong&gt;300 days later&lt;/strong&gt; than without recharge.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Takeaway:&lt;/strong&gt; recharge (e.g. from rainfall) delays saltwater intrusion, but on its own it is only marginally sufficient to limit the risk under excessive pumping.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2 id="resources"&gt;Resources&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;📄
