@@ -1,248 +1,84 @@
-# [The Academic CV That Gets You Hired](https://github.com/HugoBlox/hugo-theme-academic-cv)
+# Regis Konan Marcel Djaha — Personal Website
 
-[![Screenshot](.github/preview.webp)](https://hugoblox.com/templates/academic-cv?utm_source=github&utm_medium=readme&utm_content=preview)
+**Scientific Machine Learning · Probabilistic Deep Learning**
 
-<!-- TODO: Replace with a short demo video showing Hugo Chat generating an academic profile page -->
-<!-- https://github.com/user-attachments/assets/REPLACE_ME -->
+🌐 **[regiskonan.github.io](https://regiskonan.github.io/)**
 
-<h1 align="center">The Portfolio That Works While You Sleep</h1>
-
-<p align="center">
-  <strong>Your unfair advantage in academia.</strong><br/>
-  Stop sending PDFs into the void. Build a living portfolio that boosts citations, attracts collaborators, and lands offers — all from simple Markdown files you own.<br/>
-  Built on <a href="https://github.com/HugoBlox/kit">HugoBlox</a> — the open-source framework where AI generates your pages and you own everything as Markdown.
-</p>
-
-<p align="center">
-  <a href="https://hugoblox.com/templates/academic-cv?utm_source=github&utm_medium=readme&utm_content=cta_top"><b>Deploy Free (60s)</b></a>
-  &nbsp;&nbsp;|&nbsp;&nbsp;
-  <a href="https://hugo.chat/?utm_source=github&utm_medium=readme&utm_content=cta_top_academic-cv"><b>Customize with AI</b></a>
-  &nbsp;&nbsp;|&nbsp;&nbsp;
-  <a href="https://hugoblox.com/templates/academic-cv?utm_source=github&utm_medium=readme&utm_content=demo">Live Demo</a>
-</p>
-
-<div align="center"> 
-
-  <a href="https://github.com/HugoBlox/hugo-theme-academic-cv">
-    <img src="https://img.shields.io/github/stars/HugoBlox/hugo-theme-academic-cv?label=Star&logo=github&style=flat-square&color=181717" alt="GitHub Stars">
-  </a>
-  <a href="https://discord.gg/z8wNYzb">
-    <img src="https://img.shields.io/discord/722225264733716590?label=Discord&logo=discord&logoColor=white&style=flat-square&color=5865F2" alt="Discord">
-  </a>
-  <a href="https://github.com/HugoBlox/kit">
-    <img src="https://img.shields.io/github/stars/HugoBlox/kit?label=HugoBlox&logo=github&style=flat-square&color=181717" alt="HugoBlox Stars">
-  </a>
-
-</div>
-
-<p align="center">
-  <sub>Part of the <a href="https://github.com/HugoBlox/kit"><strong>HugoBlox</strong></a> ecosystem · Trusted by <strong>150,000+</strong> researchers at <strong>MIT, Stanford, Google & NVIDIA</strong> · Rated <strong>4.9/5</strong> (official survey) · Since <strong>2016</strong></sub>
-</p>
+[![Website](https://img.shields.io/badge/Website-regiskonan.github.io-2a5db0?style=flat-square)](https://regiskonan.github.io/)
+[![ORCID](https://img.shields.io/badge/ORCID-0009--0004--5252--759X-A6CE39?style=flat-square&logo=orcid&logoColor=white)](https://orcid.org/0009-0004-5252-759X)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-regisdjaha-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/regisdjaha)
+[![Email](https://img.shields.io/badge/Email-regiskonan056%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:regiskonan056@gmail.com)
 
 ---
 
-## Why This Template?
+## About
 
-Most academic CVs are static PDFs that get lost in the pile. This is an **always-on portfolio** that works 24/7 to advance your career:
+I am an AI researcher working at the intersection of **applied mathematics**, **deep probabilistic modeling** and **scientific machine learning**. I am currently an MSc student in [Computational Engineering and Intelligent Systems](https://www.ehu.eus/es/web/master/master-ingenieria-computacional-sistemas-inteligentes) at the **University of the Basque Country (UPV/EHU)** (2026–2027).
 
-- **Students & grads** applying to top labs and industry roles — stand out with a living portfolio, not a flat PDF
-- **Researchers** who want a citable online presence with publications, projects, and talks in one place
-- **Faculty & PIs** showcasing their lab, group news, and team members
-- **Anyone with publications** who wants auto-imported citations from BibTeX/DOI without manual formatting
+Before that, I was a Research Technician in the Statistical Machine Learning group at the [Basque Center for Applied Mathematics (BCAM)](https://www.bcamath.org/), working on deep latent variable models. I also hold master's degrees from AIMS Rwanda, AMMI (AIMS Senegal) and Université Félix Houphouët-Boigny.
 
-> *"My citations went up 3x after switching to this template. Colleagues started finding my work through Google Scholar links back to my site. The BibTeX auto-sync is a lifesaver."*
-> — **Dr. Li Zhang**, AI Research Scientist
+> 🎓 **Open to PhD positions starting in 2027** in Scientific Machine Learning, Probabilistic Deep Learning and AI for science & engineering.
 
-> *"I set this up during a weekend and my PhD students had their profiles live by Monday. They just edit Markdown — no tickets to IT, no WordPress logins."*
-> — **Prof. Sarah Chen**, Computer Science, ETH Zürich
+## Research interests
 
-<p align="center">
-  <a href="https://hugoblox.com/templates/academic-cv?utm_source=github&utm_medium=readme&utm_content=cta_mid">
-    <img src="https://img.shields.io/badge/⚡️%20Deploy%20Your%20CV%20in%2060s-7c3aed?style=for-the-badge" alt="Deploy this template" width="400">
-  </a>
-</p>
+- Scientific Machine Learning: PINNs, neural operators (FNO, DeepONet), surrogate models for PDEs
+- Deep generative and probabilistic models: VAEs, β-VAEs, Bayesian deep learning
+- Uncertainty quantification
+- Numerical methods for PDEs and computational fluid dynamics
+- Complex networks and multivariate time series
 
----
+## Featured projects
 
-## Features
+| Project | Topic | Links |
+|---|---|---|
+| **Understanding Autoencoders & VAEs** | Effect of depth, latent dimension, prior and β on AEs/VAEs (MNIST, FashionMNIST, FreyFace) | [Code](https://github.com/RegisKonan/ae_vae_understanding) |
+| **Kernel Methods for DNA Binding-Site Prediction** | SVMs and multiple spectrum kernels, 6th on the private leaderboard (67.0%) | [Report](https://github.com/RegisKonan/Kernel_Methods_report-) |
+| **Darcy's Law in a 2D Porous Embankment** | Seepage through horizontal, multilayer and inclined embankments (AIMS thesis) | [Thesis](https://github.com/RegisKonan/AIMS_master_embankment) |
+| **Saltwater Intrusion in Anisotropic Porous Media** | Finite element simulation (FreeFem++) of the salt wedge (UFHB thesis) | [Thesis](https://github.com/RegisKonan/UFHB_master_Fluid_mechanics) |
 
-| Feature | Benefit |
-| :--- | :--- |
-| **BibTeX / DOI auto-import** | Drop in a `.bib` file — publication pages generated automatically with proper citations. |
-| **Jupyter & RMarkdown** | Publish `.ipynb` notebooks as beautiful posts — code, outputs, and narrative intact. |
-| **LaTeX math** | Native rendering for equations and technical writing. |
-| **Markdown slides** | Present with reveal.js — math, syntax highlighting, diagrams, speaker notes. |
-| **SEO & AI-ready** | Optimized for search engines and LLMs — your work gets found, cited, and recommended. |
-| **AI page generation** | Describe what you need to [Hugo Chat](https://hugo.chat/?utm_source=github&utm_medium=readme&utm_content=features_academic-cv) — get structured pages with correct front matter instantly. |
-| **Visual editor** | Drag-and-drop blocks in VS Code with [Ownable CMS](https://marketplace.visualstudio.com/items?itemName=ownable.ownable). No coding needed. |
-| **Plain Markdown** | Every file is human-readable. No database, no lock-in, take your content anywhere. |
-| **Free hosting** | Deploy to GitHub Pages, Netlify, Vercel, or Cloudflare — all free tier. |
+## Publications
+
+- D.-D. Fangnon, A. S. Kouyim Meli, V. R. Mbingui, P. D. Negho, **R. K. M. Djaha**, L. L. Seknewna. *A comparative study of Bitcoin and Ripple cryptocurrencies trading using Deep Reinforcement Learning.* Deep Learning Indaba 2024. [arXiv:2505.07660](https://arxiv.org/abs/2505.07660)
+- J. K. Mutinda, A. Langat, **R. K. M. Djaha**, J. N. Munyao, L. Whitaker, M. A. Omondi. *Enhancing Obesity Detection Through SMOTE-based Classification Models: A Comparative Study.* Interdisciplinary Journal of Epidemiology and Public Health (iJEPH), 2024. [Link](https://revistas.unilibre.edu.co/index.php/iJEPH/article/view/115320)
 
 ---
 
-## 🚀 Get Started
+## About this repository
 
-### Step 1: Deploy Your Site
+This repository contains the source code of my website, built with [Hugo](https://gohugo.io/) and the [HugoBlox](https://hugoblox.com/) *Academic CV* template.
 
-**Option A: Launch in browser** (fastest — no install needed)
+### Structure
 
-> [!TIP]
-> Deploy a live site in 60 seconds — no software to install:
-> [**Deploy Academic CV free**](https://hugoblox.com/templates/academic-cv?utm_source=github&utm_medium=readme&utm_content=get_started)
-
-**Option B: Use the CLI**
-
-```bash
-# Requires Hugo Extended & Node.js
-npx hugoblox create site --template academic-cv
+```
+content/
+├── _index.md            # Home page: bio, research, awards, certificates, publications
+├── experience.md        # Experience, skills and languages
+├── projects/            # One Markdown file per project
+├── publications/        # One folder per publication (index.md + cite.bib)
+└── courses/             # Courses and academic presentations
+data/authors/me.yaml     # Profile: name, role, links, education, experience, awards
+assets/media/            # Avatar and project images
+static/uploads/          # CVs (English / Spanish)
+config/_default/         # Site configuration and menus
 ```
 
-### Step 2: Customize With AI + Visual Editing
+### Run locally
 
-<table>
-<tr>
-<td width="50%">
+Requirements: [Hugo extended](https://gohugo.io/installation/), [Go](https://go.dev/dl/) and [Node.js](https://nodejs.org/) with [pnpm](https://pnpm.io/).
 
-**✨ Hugo Chat** — AI customization
+```bash
+git clone https://github.com/RegisKonan/RegisKonan.github.io.git
+cd RegisKonan.github.io
+pnpm install
+hugo server
+```
 
-Tell Hugo Chat what you want in plain English. It generates structured pages with the right front matter, shortcodes, and blocks for this template.
+Then open http://localhost:1313.
 
-> *"Add a publications page with my 2024 papers from this BibTeX file"*
+### Deployment
 
-[**Try Hugo Chat — free**](https://hugo.chat/?utm_source=github&utm_medium=readme&utm_content=step2_academic-cv)
+Every push to `main` runs the GitHub Actions workflow [`.github/workflows/build.yml`](.github/workflows/build.yml). It builds the site with Hugo and publishes it to the `gh-pages` branch, which GitHub Pages serves at [regiskonan.github.io](https://regiskonan.github.io/). In *Settings → Pages*, the source must be **Deploy from a branch → `gh-pages` / root**.
 
-</td>
-<td width="50%">
+## License
 
-**Ownable CMS** — visual editing in VS Code
-
-1. Install [Ownable CMS](https://marketplace.visualstudio.com/items?itemName=ownable.ownable)
-2. Open your project in VS Code
-3. Click the Ownable icon to start editing visually
-
-</td>
-</tr>
-</table>
-
-![Ownable CMS in Action](https://raw.githubusercontent.com/HugoBlox/kit/main/.github/media/studio/slide-1.webp)
-*Ownable CMS: Drag-and-drop page builder inside VS Code.*
-
-> [!NOTE]
-> **New to Hugo?** No problem. You don't need to know Hugo — edit visually or write Markdown. Hugo is the engine under the hood that makes your site fast, secure, and free to host. [Learn more →](https://docs.ownable.dev/?utm_source=github&utm_medium=readme&utm_content=docs_academic-cv)
-
----
-
-## 💎 Go Premium
-
-Love the free version? **Academic CV Pro** and **Resume Pro** take it further:
-
-- Premium designs that make an unforgettable first impression
-- Advanced timeline and layout options
-- Full-featured course/lecture sections
-- Remove attribution, priority support
-
-| | **Academic CV** (Free) | **Academic CV Pro** |
-| :--- | :---: | :---: |
-| Design | Professional & clean | **Premium designs** |
-| Layouts | Standard sections | **Advanced timelines** |
-| Courses/lectures | Basic | **Full-featured** |
-| Support | Community | **Priority** |
-
-<p align="center">
-  <a href="https://hugoblox.com/pricing?utm_source=github&utm_medium=readme&utm_content=premium_academic-cv"><b>Compare plans</b></a>
-  &nbsp;&nbsp;|&nbsp;&nbsp;
-  <a href="https://hugoblox.com/templates/academic-cv-pro?utm_source=github&utm_medium=readme&utm_content=premium_deploy_academic-cv"><b>Deploy Academic CV Pro</b></a>
-  &nbsp;&nbsp;|&nbsp;&nbsp;
-  <a href="https://hugoblox.com/templates/resume-pro?utm_source=github&utm_medium=readme&utm_content=premium_deploy_resume"><b>Deploy Resume Pro</b></a>
-</p>
-
----
-
-## 🏆 Why HugoBlox?
-
-> *Why not just use WordPress, Webflow, or an AI builder like Lovable?*
-
-| | **AI builders** (Lovable, v0) | **CMS platforms** (WordPress, Webflow) | **HugoBlox** |
-| :--- | :---: | :---: | :---: |
-| AI generates your pages | Yes | No | **Yes** |
-| You own the output as readable files | No — React code | No — database | **Yes — Markdown** |
-| Free to host forever | No | No | **Yes** |
-| Human-editable without the tool | Barely | No | **Yes — it's Markdown** |
-| Open source | No | No | **Yes — MIT licensed** |
-
-> [!IMPORTANT]
-> Your content is plain Markdown files. No lock-in, no database, no vendor dependency. If you ever want to leave, take your files and go.
-
----
-
-## FAQ
-
-<details>
-<summary><b>Do I need to know Hugo?</b></summary>
-No. Edit visually with Ownable CMS or write Markdown. Hugo is the build engine — you don't need to touch it.
-</details>
-
-<details>
-<summary><b>Can I import my existing publications?</b></summary>
-Yes. Drop a BibTeX file and publication pages are generated automatically with proper citations, metadata, and links.
-</details>
-
-<details>
-<summary><b>Can I host for free?</b></summary>
-Yes. GitHub Pages, Netlify, Vercel, and Cloudflare Pages all have free tiers for static sites.
-</details>
-
-<details>
-<summary><b>Can I migrate my content later?</b></summary>
-Yes. Your site is just Markdown files in a folder. Copy them anywhere.
-</details>
-
-<details>
-<summary><b>What's Hugo Chat?</b></summary>
-An AI assistant trained on Hugo and HugoBlox docs. Describe what you want and it generates the right pages with correct front matter. <a href="https://hugo.chat/?utm_source=github&utm_medium=readme&utm_content=faq_academic-cv">Free to try.</a>
-</details>
-
-<details>
-<summary><b>Can I cancel Pro anytime?</b></summary>
-Yes. No questions asked.
-</details>
-
----
-
-<h2 align="center">🚀 Ready to launch?</h2>
-
-<p align="center">
-  Deploy in 60 seconds. Customize with AI. Own it as Markdown forever.
-</p>
-
-<p align="center">
-  <a href="https://hugoblox.com/templates/academic-cv?utm_source=github&utm_medium=readme&utm_content=cta_final"><b>Deploy Academic CV — free</b></a>
-  &nbsp;&nbsp;|&nbsp;&nbsp;
-  <a href="https://hugo.chat/?utm_source=github&utm_medium=readme&utm_content=cta_final_academic-cv"><b>Customize with AI</b></a>
-</p>
-
----
-
-## Community & Support
-
-- 💬 [**Discord**](https://discord.gg/z8wNYzb) — ask questions, share your site
-- 📚 [**Docs**](https://docs.ownable.dev/?utm_source=github&utm_medium=readme&utm_content=community_academic-cv)
-- ⭐ [**Star HugoBlox**](https://github.com/HugoBlox/kit) — help others find it
-- 🐦 [**Follow on X**](https://x.com/GoOwnable)
-
-### Sponsors
-
-[**❤️ Sponsor on GitHub**](https://github.com/sponsors/gcushen) | [**🏢 Become a Partner**](https://github.com/sponsors/gcushen)
-
----
-
-Copyright 2016-present [**Lore Labs**](https://lore.tech/?utm_source=github&utm_medium=readme).
-Released under the [MIT License](./LICENSE.md).
-
-<p align="center">
-  <sub>HugoBlox is a trademark of Lore Labs.</sub>
-</p>
-
-<!--START_SECTION:news-->
-<!--Updated at 2026-07-12T01:43:09.611Z-->
-<!--END_SECTION:news-->
+Website content © Regis Konan Marcel Djaha. The underlying template is released under the [MIT License](LICENSE.md) by HugoBlox.
