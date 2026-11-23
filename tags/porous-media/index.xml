@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Porous Media | Regis Konan Marcel Djaha | M.Sc. Candidate in Computational Engineering and Intelligent Systems</title><link>https://regiskonan.github.io/tags/porous-media/</link><atom:link href="https://regiskonan.github.io/tags/porous-media/index.xml" rel="self" type="application/rss+xml"/><description>Porous Media</description><generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 28 Jun 2022 00:00:00 +0000</lastBuildDate><image><url>https://regiskonan.github.io/media/icon_hu_17bb65482e63706a.png</url><title>Porous Media</title><link>https://regiskonan.github.io/tags/porous-media/</link></image><item><title>Darcy's Law in a 2D Porous Embankment</title><link>https://regiskonan.github.io/projects/aims-thesis/</link><pubDate>Tue, 28 Jun 2022 00:00:00 +0000</pubDate><guid>https://regiskonan.github.io/projects/aims-thesis/</guid><description>&lt;h2 id="motivation"&gt;Motivation&lt;/h2&gt;
+&lt;p&gt;Embankments store and channel fresh water, but some water always seeps through them. Knowing &lt;strong&gt;how much&lt;/strong&gt; is key to balancing water conservation against flood risk.&lt;/p&gt;
+&lt;h2 id="model"&gt;Model&lt;/h2&gt;
+&lt;p&gt;Flow through the porous embankment is described by &lt;strong&gt;Darcy&amp;rsquo;s law&lt;/strong&gt;:&lt;/p&gt;
+$$
+\mathbf{U} = -\frac{K}{\mu}\left(\nabla p - \rho \mathbf{g}\right),
+$$&lt;p&gt;where $K$ is the permeability, $\mu$ the dynamic viscosity, $p$ the pressure and $\rho$ the fluid density. For a horizontal embankment of length $L$ separating two water tables of heights $y_0$ and $y_1$, the steady discharge per unit width is&lt;/p&gt;
+$$
+Q = \frac{K g \left(y_0^2 - y_1^2\right)}{2 \nu L},
+$$&lt;p&gt;with $\nu$ the kinematic viscosity. The analysis is then extended to &lt;strong&gt;multilayer embankments&lt;/strong&gt; (layers of different permeability) and &lt;strong&gt;inclined embankments&lt;/strong&gt;, where gravity acts along the slope.&lt;/p&gt;
+&lt;h2 id="results"&gt;Results&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Discharge grows &lt;strong&gt;linearly with permeability&lt;/strong&gt; and decreases with embankment length.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Steeper slopes increase&lt;/strong&gt; the flow.&lt;/li&gt;
+&lt;li&gt;Combining materials of different permeability changes both the total discharge and how water is distributed inside the embankment.&lt;/li&gt;
+&lt;li&gt;Case study (earthfill embankment on impermeable bedrock, two layers): computed discharge $Q \approx 2.68 \times 10^{-3}\ \mathrm{m^2/s}$, consistent with the theoretical prediction.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="resources"&gt;Resources&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;📄
+&lt;/li&gt;
+&lt;li&gt;💻
+&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Saltwater Intrusion in Anisotropic Porous Media</title><link>https://regiskonan.github.io/projects/fluid-mechanics/</link><pubDate>Fri, 28 Feb 2020 00:00:00 +0000</pubDate><guid>https://regiskonan.github.io/projects/fluid-mechanics/</guid><description>&lt;h2 id="motivation"&gt;Motivation&lt;/h2&gt;
+&lt;p&gt;Fresh water makes up less than 3% of the water on Earth, and much of it is stored underground. In coastal aquifers, salt water can push into fresh groundwater, forming a &lt;strong&gt;salt wedge&lt;/strong&gt; that threatens drinking-water supplies.&lt;/p&gt;
+&lt;h2 id="question"&gt;Question&lt;/h2&gt;
+&lt;p&gt;Most classical salt-wedge results assume an &lt;strong&gt;isotropic&lt;/strong&gt; medium, where permeability is the same in every direction. Real soils are often &lt;strong&gt;anisotropic&lt;/strong&gt;. This thesis asks: &lt;strong&gt;how does anisotropic permeability change the position and advance of the freshwater–saltwater interface?&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id="approach"&gt;Approach&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Review of porous-media fundamentals and known results for the salt-wedge model in the isotropic case.&lt;/li&gt;
+&lt;li&gt;Numerical study of the advance of the salt wedge when permeability depends on direction.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="resources"&gt;Resources&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;📄
+: &lt;em&gt;Influence of the anisotropy of the medium&amp;rsquo;s permeability on advancing the freshwater–dirty water interface&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;💻
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;em&gt;Master&amp;rsquo;s in Mechanics and Energetics, Fluid and Interactive Phenomena track — Université Félix Houphouët-Boigny, Côte d&amp;rsquo;Ivoire.&lt;/em&gt;&lt;/p&gt;</description></item></channel></rss>
