@@ -6,6 +6,10 @@ tags:
   - Generative Models
   - Probabilistic Modeling
 date: 2024-07-31
+image:
+  filename: project-vae-priors.jpg
+  caption: "VAE latent spaces on MNIST (D_z = 2) under four different Gaussian priors."
+  focal_point: Center
 links:
   - icon: github
     icon_pack: fab

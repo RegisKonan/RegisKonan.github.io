@@ -6,6 +6,10 @@ tags:
   - Porous Media
   - Fluid Mechanics
 date: 2022-06-28
+image:
+  filename: project-embankment.jpg
+  caption: "Seepage through an inclined two-layer embankment (permeabilities K1, K2) separating three water tables."
+  focal_point: Center
 links:
   - icon: github
     icon_pack: fab
