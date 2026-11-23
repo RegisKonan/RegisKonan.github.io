@@ -5,6 +5,7 @@
 🌐 **[regiskonan.github.io](https://regiskonan.github.io/)**
 
 [![Website](https://img.shields.io/badge/Website-regiskonan.github.io-2a5db0?style=flat-square)](https://regiskonan.github.io/)
+[![Google Scholar](https://img.shields.io/badge/Google%20Scholar-Profile-4285F4?style=flat-square&logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?user=9HYn9mUAAAAJ)
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0004--5252--759X-A6CE39?style=flat-square&logo=orcid&logoColor=white)](https://orcid.org/0009-0004-5252-759X)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-regisdjaha-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/regisdjaha)
 [![Email](https://img.shields.io/badge/Email-regiskonan056%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:regiskonan056@gmail.com)

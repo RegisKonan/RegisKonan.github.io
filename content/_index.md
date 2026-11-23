@@ -37,6 +37,19 @@ sections:
         shape: circle
 
   - block: markdown
+    id: news
+    content:
+      title: '📰 News'
+      text: |-
+        * **Sep 2026** — Started the MSc in [Computational Engineering and Intelligent Systems](https://www.ehu.eus/es/web/master/master-ingenieria-computacional-sistemas-inteligentes) at UPV/EHU, Donostia-San Sebastián.
+        * **May 2025** — Our paper on Bitcoin and Ripple trading with deep reinforcement learning is out on [arXiv](https://arxiv.org/abs/2505.07660).
+        * **Sep 2024** — Completed my Research Technician position in Statistical Machine Learning at [BCAM](https://www.bcamath.org/), Bilbao.
+        * **Jul 2024** — Graduated from the African Master's in Machine Intelligence (AMMI), AIMS Senegal.
+        * **Jun 2024** — Attended the MaLGa Summer Schools on Machine Learning and on Deep Learning & Computer Vision (University of Genova), and co-authored a paper on obesity detection in [iJEPH](https://revistas.unilibre.edu.co/index.php/iJEPH/article/view/115320).
+    design:
+      columns: '1'
+
+  - block: markdown
     id: research
     content:
       title: '📚 Research'
@@ -56,8 +69,8 @@ sections:
   - block: markdown
     id: awards
     content:
-      title: '🏆 Awards & Scholarships'
-      subtitle: 'Research grants and academic scholarships'
+      title: '🏆 Awards & Certificates'
+      subtitle: 'Scholarships, research positions and certifications'
       text: |-
         * **Research Technician Position in Statistical Machine Learning** (2023)  
           Selected through a competitive call (IC2023_03) — Basque Center for Applied Mathematics (BCAM), Bilbao, Spain. Position funded by a "la Caixa" Junior Leader fellowship project.
@@ -70,44 +83,34 @@ sections:
         
         * **Full Master's Degree Scholarship — AIMS** (2021)  
           African Institute for Mathematical Sciences — Kigali, Rwanda.
-    design:
-      columns: '1'
 
-  - block: markdown
-    id: certificates
-    content:
-      title: '📜 Certificates'
-      subtitle: 'Professional certifications, workshops, and academic honors'
-      text: |-
-        Here is the complete list of certifications and credentials obtained throughout my academic and research journey:
+        ### 📜 Certificates
 
-        ***
-
-        ### Data Science Workshop: From Theory to Practice
+        #### Data Science Workshop: From Theory to Practice
         * **Institution:** African Institute for Mathematical Sciences (AIMS) Research Innovation Centre
         * **Description:** Active participation and completion of the practical Data Science workshop focused on transitioning from theory to real-world applications.
 
         ***
 
-        ### Participation in the national phase of the second edition of the CAMES Olympiad
+        #### Participation in the national phase of the second edition of the CAMES Olympiad
         * **Institution:** African and Malagasy Council for Higher Education (CAMES)
         * **Description:** Participated in the national phase of the second edition of the CAMES University Olympiads, representing University Felix Houphouët-Boigny (UFHB).
 
         ***
 
-        ### Virtual Mentorship Programme in Mathematical Sciences
+        #### Virtual Mentorship Programme in Mathematical Sciences
         * **Institution:** Mfano Africa - Oxford Mathematics
         * **Description:** Completed the intensive virtual research mentorship program in mathematical sciences conducted in collaboration with Oxford University.
 
         ***
 
-        ### Reproducing Kernel Hilbert Spaces for Machine Learning
+        #### Reproducing Kernel Hilbert Spaces for Machine Learning
         * **Institution:** Basque Center for Applied Mathematics (BCAM), Spain
         * **Description:** Certificate of completion for the advanced specialized course on the theoretical and practical foundations of Reproducing Kernel Hilbert Spaces (RKHS) applied to statistical learning.
 
         ***
 
-        ### Training in Python and Scilab: Application to the study of Partial Differential Equations
+        #### Training in Python and Scilab: Application to the study of Partial Differential Equations
         * **Institution:** Mathematical Society of Ivory Coast (SMCI) & Mathematical School of Yamoussoukro (EMY)
         * **Description:** Technical training certificate covering scientific programming in Python and Scilab, with a solid application to the study and numerical modeling of Partial Differential Equations (PDEs).
     design:
