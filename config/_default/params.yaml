@@ -87,10 +87,10 @@ hugoblox:
     # Stick to top on scroll
     sticky: true
     # Menu alignment
-    align: center # left | center | right
+    align: right # left | center | right
     # Logo configuration
     logo:
-      text: ""
+      text: "Regis K. M. Djaha"
       file: "icon.png"
     # Feature toggles
     search: true
