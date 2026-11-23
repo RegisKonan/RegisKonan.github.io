@@ -15,11 +15,7 @@ sections:
 
         Prior to this, Regis worked as a full-time Research Technician at the [Basque Center for Applied Mathematics (BCAM)](https://www.bcamath.org/) within the Statistical Machine Learning Group. His research focused on deep latent variable models, particularly Variational Autoencoders (VAEs), and their applications to both unsupervised and supervised learning tasks. He also collaborated with researchers at the [University of Oxford](https://www.ox.ac.uk/) through the [Mfano Africa program](https://www.maths.ox.ac.uk/outreach/miorpa), investigating the visibility network structure of complex multivariate time series.
 
-        His academic background bridges rigorous foundations in mathematics, physical sciences, and modern artificial intelligence:
-        * **African Master’s in Machine Intelligence (AMMI)** – [AIMS Senegal](https://aims-senegal.org/) (2023–2024)
-        * **MSc in Mathematical Sciences** – [AIMS Rwanda](https://aims.ac.rw/) (2021–2022)
-        * **MSc in Mechanics and Energetics (Fluid Dynamics)** – [Université Félix Houphouët-Boigny](https://w.univ-fhb.edu.ci/), Côte d'Ivoire (2018–2020)
-        * **BSc in Mathematics** – [Université Félix Houphouët-Boigny](https://w.univ-fhb.edu.ci/), Côte d'Ivoire (2015–2018)
+        His academic background bridges rigorous foundations in mathematics, physical sciences, and modern artificial intelligence, with degrees from [AIMS Senegal (AMMI)](https://aims-senegal.org/), [AIMS Rwanda](https://aims.ac.rw/) and [Université Félix Houphouët-Boigny](https://w.univ-fhb.edu.ci/) (Côte d'Ivoire).
 
         > 🎓 **Open to PhD positions (starting 2027)** in Scientific Machine Learning, Probabilistic Deep Learning, and AI for science & engineering. [Get in touch](mailto:regiskonan056@gmail.com).
 

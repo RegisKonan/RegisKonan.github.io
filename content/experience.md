@@ -42,8 +42,8 @@ sections:
       title: '🗣️ Languages'
       text: |-
         * **French** (Native)
-        * **English** (Professional)
-        * **Spanish** (Basic / Intermediate)
+        * **English** (Professional working proficiency, B2)
+        * **Spanish** (Intermediate)
     design:
       columns: '1'
 ---

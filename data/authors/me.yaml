@@ -111,11 +111,11 @@ languages:
     level: 5
     label: Native
   - name: English
-    level: 3
-    label: B2
+    level: 4
+    label: Professional (B2)
   - name: Spanish
-    level: 1
-    label: Currently studying
+    level: 2
+    label: Intermediate
 
 awards:
   - title: Research Technician Position (competitive call IC2023_03)
